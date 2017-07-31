@@ -1,0 +1,1674 @@
+<toc label="AL_USDMaya" topic="index.html">
+  <topic label="Animal Logic - USD Maya Bridge" href="index.html"/>
+  <topic label="Maya API Helper Classes" href="mayahelpers.html">
+    <topic label="AL::maya::CommandGuiHelper" href="mayahelpers.html#almaya_commandgui"/>
+  </topic>
+  <topic label="Custom Plugin Translators" href="translator_plugins.html"/>
+  <topic label="Todo List" href="todo.html"/>
+  <topic label="Modules" href="modules.html">
+    <topic label="Maya Helpers" href="group__mayautils.html">
+      <topic label="Profiler" href="group__profiler.html">
+        <topic label="ProfilerSectionPath" href="classAL_1_1maya_1_1ProfilerSectionPath.html">
+          <topic label="ProfilerSectionPath" href="classAL_1_1maya_1_1ProfilerSectionPath.html#a805f98bf30183cce77e50727058e1a4a"/>
+          <topic label="hash" href="classAL_1_1maya_1_1ProfilerSectionPath.html#a56344ee602b5b92b919efa01a8e547c9"/>
+          <topic label="operator==" href="classAL_1_1maya_1_1ProfilerSectionPath.html#acd3f240199405bab2732226beee1d017"/>
+          <topic label="Profiler" href="classAL_1_1maya_1_1ProfilerSectionPath.html#ad73e5645d5b7b84a00d4a5d07b8d8078"/>
+        </topic>
+        <topic label="Profiler" href="classAL_1_1maya_1_1Profiler.html">
+        </topic>
+        <topic label="AL_BEGIN_PROFILE_SECTION" href="group__profiler.html#ga676acfcb6dcdeca2397d9d0e6440e135"/>
+        <topic label="AL_END_PROFILE_SECTION" href="group__profiler.html#ga2d30ded5c2f30d08d38725b1b897158a"/>
+        <topic label="MAX_TIMESTAMP_STACK_SIZE" href="group__profiler.html#ga721cc5ee48ad4752f59cced98575f180"/>
+      </topic>
+      <topic label="Maya GUI" href="group__mayagui.html">
+        <topic label="CommandGuiListGen" href="classAL_1_1maya_1_1CommandGuiListGen.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1maya_1_1CommandGuiListGen.html#a7b102ae036cc01ce574bcb5855a9ceba"/>
+        </topic>
+        <topic label="CommandGuiHelper" href="classAL_1_1maya_1_1CommandGuiHelper.html">
+          <topic label="FileMode" href="classAL_1_1maya_1_1CommandGuiHelper.html#a1efbadfb1cf6edc8563f4000b60a40ed">
+            <topic label="kSave" href="classAL_1_1maya_1_1CommandGuiHelper.html#a1efbadfb1cf6edc8563f4000b60a40eda1a6263fa29ff8eb424110f083b91f303"/>
+            <topic label="kLoad" href="classAL_1_1maya_1_1CommandGuiHelper.html#a1efbadfb1cf6edc8563f4000b60a40edae47d834716b2915a811eb44e94423efc"/>
+            <topic label="kDirectoryWithFiles" href="classAL_1_1maya_1_1CommandGuiHelper.html#a1efbadfb1cf6edc8563f4000b60a40edadd8287ade34bfec6e0879b77bedaab2c"/>
+            <topic label="kDirectory" href="classAL_1_1maya_1_1CommandGuiHelper.html#a1efbadfb1cf6edc8563f4000b60a40eda857dd400d33fe45a10e1e813f2cd1eaf"/>
+            <topic label="kMultiLoad" href="classAL_1_1maya_1_1CommandGuiHelper.html#a1efbadfb1cf6edc8563f4000b60a40eda1953844ae73042d797c192c91eead341"/>
+          </topic>
+          <topic label="StringPolicy" href="classAL_1_1maya_1_1CommandGuiHelper.html#ad5c7e51aa8292323fa55941fbf958c3d">
+            <topic label="kStringOptional" href="classAL_1_1maya_1_1CommandGuiHelper.html#ad5c7e51aa8292323fa55941fbf958c3daee363f8df7409b4d57720571d39a14ef"/>
+            <topic label="kStringMustHaveValue" href="classAL_1_1maya_1_1CommandGuiHelper.html#ad5c7e51aa8292323fa55941fbf958c3da50dda3428f70f7a4345edbf0e7478b4c"/>
+          </topic>
+          <topic label="CommandGuiHelper" href="classAL_1_1maya_1_1CommandGuiHelper.html#ac391c08de085e452cffe45d7765b160f"/>
+          <topic label="CommandGuiHelper" href="classAL_1_1maya_1_1CommandGuiHelper.html#af69f72a659ce87da5555bf1eef4ff2b5"/>
+          <topic label="~CommandGuiHelper" href="classAL_1_1maya_1_1CommandGuiHelper.html#a256543a66d55df09dd1c85544efc93f9"/>
+          <topic label="addBoolOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#acccad5535bd277e174424b80ec67ae32"/>
+          <topic label="addColourOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a64c041c940ad640d41e512d86ca3bea1"/>
+          <topic label="addColourOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a8d767baebf50ff128394acb95fe0d68f"/>
+          <topic label="addDoubleOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#ae6f6f256d9cb02ece27d47ec3355d005"/>
+          <topic label="addDoubleSliderOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#adea57a0b5bb50c2a687a004c2036e3a3"/>
+          <topic label="addEnumOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a8633fdc5271144da14fe186aef26c2a3"/>
+          <topic label="addFilePathOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a50a6611af96d1d9903f55830c0b564a9"/>
+          <topic label="addFlagOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#ae69e24a378f82fb91c8ab4627cfd6798"/>
+          <topic label="addInt2Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a904b45d450e3e2b59798e76a5fe42e38"/>
+          <topic label="addInt2Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a2bc48599a603b78617dcc1c23a0b4e66"/>
+          <topic label="addInt3Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#abfa516ec1786766b07efd3bd50aa5a19"/>
+          <topic label="addInt3Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#adb1a8c4606deb836377d0c5d1679ab73"/>
+          <topic label="addInt4Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a0e46b2d25da1cbcc3dd684c046181b2a"/>
+          <topic label="addInt4Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a88705c2f16b917fd7426d87c6c21d338"/>
+          <topic label="addIntOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a826f42b0bc545138b095abdab14aacd3"/>
+          <topic label="addIntSliderOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a284b08297d95f3e958b79a555f3dc6e2"/>
+          <topic label="addListOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#ab652a44d36a5585d7c2b4359bc541783"/>
+          <topic label="addRadioButtonGroupOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#aeee7515e8e1879663392910e3656ab4b"/>
+          <topic label="addStringOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a0f507f55406b7c5d81d3cf6100ea0eb5"/>
+          <topic label="addVec2Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#ad7abd3036b27cb8b9cdfd92da002be16"/>
+          <topic label="addVec2Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a276a309fea2433a01648e65e4b811083"/>
+          <topic label="addVec3Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#aa23904315ffc5471c283b50d011de445"/>
+          <topic label="addVec3Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a9a933dc6f652563afbade1ed6b386e45"/>
+          <topic label="addVec4Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a14a6d7db998ef52362a7b8d3d8343b96"/>
+          <topic label="addVec4Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a783849f01c90cd37ea461a17f323c208"/>
+        </topic>
+        <topic label="OptionsParser" href="classAL_1_1maya_1_1OptionsParser.html">
+          <topic label="OptionsParser" href="classAL_1_1maya_1_1OptionsParser.html#a1e6c622e8931736addbdeb756356607f"/>
+          <topic label="~OptionsParser" href="classAL_1_1maya_1_1OptionsParser.html#a9134fac6b8c1769279b8c46564efd0fa"/>
+          <topic label="getBool" href="classAL_1_1maya_1_1OptionsParser.html#ac2da944ca8a5730f0e67bdaa8ee84933"/>
+          <topic label="getFloat" href="classAL_1_1maya_1_1OptionsParser.html#a5c76a8ee527e68f7ffd5f92ab043abe9"/>
+          <topic label="getInt" href="classAL_1_1maya_1_1OptionsParser.html#a3b7a2cb87b8e3f7d3458dec8ca12e21d"/>
+          <topic label="getString" href="classAL_1_1maya_1_1OptionsParser.html#a75b650edd72ab7bb1e0cc29fc8c76c68"/>
+          <topic label="parse" href="classAL_1_1maya_1_1OptionsParser.html#afcd4ec3c0034af79b66e2da0d51f28e6"/>
+          <topic label="FileTranslatorOptions" href="classAL_1_1maya_1_1OptionsParser.html#a3f622385dbedbbf8957b879779cf9d07"/>
+        </topic>
+        <topic label="MenuBuilder" href="classAL_1_1maya_1_1MenuBuilder.html">
+          <topic label="Menu" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html">
+            <topic label="~Menu" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#a3916cc0a9e3608dd3c49871c5cdd295b"/>
+            <topic label="childMenus" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#ad8ff9193bfdb0d02eff47044b1aa02e1"/>
+            <topic label="generate" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#abb643bf89f1d8e20b663c722a0b76000"/>
+            <topic label="menuItems" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#ad5df1bd5d3c5ed1218ed489baabb1e14"/>
+            <topic label="name" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#a95b18f9213ecdd399b58a7dd4145dcfb"/>
+            <topic label="operator&lt;" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#aadf34aa634337391ba0178807a05b253"/>
+            <topic label="operator==" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#a6dca17c047cd47b1a2e4fe9c57c07229"/>
+            <topic label="print_indent" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#ae27700dc620f9a6ccfc753a32a626e89"/>
+            <topic label="MenuBuilder" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#a4ee71615f1ddd019be11cc6d8dd07de0"/>
+          </topic>
+          <topic label="MenuItem" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html">
+            <topic label="checkBox" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html#aa410356e100c4a37890d600cce682cb0"/>
+            <topic label="checkBoxValue" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html#ab52af54c8f3131d7d6c4f2ce60042c38"/>
+            <topic label="command" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html#acb395b090ad16411a021f801ec2f2447"/>
+            <topic label="label" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html#a3867170ffa2a9aae08266c872ec404ee"/>
+            <topic label="optionBox" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html#ad2a038e04dd7818e26275a9097fe52ea"/>
+          </topic>
+        </topic>
+        <topic label="NodeHelper" href="classAL_1_1maya_1_1NodeHelper.html">
+          <topic label="AttributeFlags" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7">
+            <topic label="kCached" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a3685f160ccfeafca61dc7dcd655548f1"/>
+            <topic label="kReadable" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7abcfba33b7ad2b367613427dd818ce42d"/>
+            <topic label="kWritable" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7af712f6c240a527fce274a0c34c11df6a"/>
+            <topic label="kStorable" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a48c3fda9d0f4584a56b6cfb865970c76"/>
+            <topic label="kAffectsAppearance" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a65a2b1124f88abdef4cb4f5a852d0875"/>
+            <topic label="kKeyable" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7ac48080fda887ea28b3907180bd26d4de"/>
+            <topic label="kConnectable" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a42fa36da0e0440417fa4b5a1d7efa2a0"/>
+            <topic label="kArray" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a1976db8c48baec13c23d3f59d7a26994"/>
+            <topic label="kColour" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7adf17a25aec55f147715113b4a1908bb9"/>
+            <topic label="kHidden" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7ac8c9c61394b1c1c2d5333b58e6a11ec3"/>
+            <topic label="kInternal" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a00e88714ae6c9a0d3e43e8d2e7f80e56"/>
+            <topic label="kAffectsWorldSpace" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7ae50b634c9a971191db75edaf85ed7c5a"/>
+            <topic label="kUsesArrayDataBuilder" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a213bc826c0e629f75f71aaadaaa65fa3"/>
+            <topic label="kDontAddToNode" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a37e03517c2afce8092d3e96b94cc2d38"/>
+            <topic label="kDynamic" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7ab7f4ee28de454f741b28ca11c85d639b"/>
+          </topic>
+          <topic label="FileMode" href="classAL_1_1maya_1_1NodeHelper.html#a7670bef2e60ec7cf0eeb0dac168b09a1">
+            <topic label="kSave" href="classAL_1_1maya_1_1NodeHelper.html#a7670bef2e60ec7cf0eeb0dac168b09a1aec1c02ede8330de9272c54e661bd5810"/>
+            <topic label="kLoad" href="classAL_1_1maya_1_1NodeHelper.html#a7670bef2e60ec7cf0eeb0dac168b09a1a0a5f671121e0ac6dc29077103c6fe88b"/>
+            <topic label="kDirectoryWithFiles" href="classAL_1_1maya_1_1NodeHelper.html#a7670bef2e60ec7cf0eeb0dac168b09a1a2931c2cbec5c09f461a4c5c525b402b1"/>
+            <topic label="kDirectory" href="classAL_1_1maya_1_1NodeHelper.html#a7670bef2e60ec7cf0eeb0dac168b09a1afab8becdb365d4032505c01c20cc8923"/>
+            <topic label="kMultiLoad" href="classAL_1_1maya_1_1NodeHelper.html#a7670bef2e60ec7cf0eeb0dac168b09a1a35a4425facde66803ea8cceaf3112646"/>
+          </topic>
+          <topic label="NodeHelper" href="classAL_1_1maya_1_1NodeHelper.html#ac241827470a94a3bd61d85c481f9537f"/>
+          <topic label="~NodeHelper" href="classAL_1_1maya_1_1NodeHelper.html#a6b8f93a907e2c5d81e82f04428340a9c"/>
+        </topic>
+        <topic label="AL_DECL_ATTRIBUTE" href="group__mayagui.html#gacd3da57d11633aff3c79151b04e344be"/>
+      </topic>
+      <topic label="DgNodeHelper" href="structAL_1_1maya_1_1DgNodeHelper.html">
+        <topic label="DgNodeHelper" href="structAL_1_1maya_1_1DgNodeHelper.html#a6a2548c83b1f8a35abf0894a03c032ae"/>
+        <topic label="~DgNodeHelper" href="structAL_1_1maya_1_1DgNodeHelper.html#a675416e6509bf9a9147485ae6132beb1"/>
+      </topic>
+      <topic label="AL_MAYA_CHECK_ERROR" href="group__mayautils.html#ga90c01cbecf9d8dc99c643e9f401a40ca"/>
+      <topic label="AL_MAYA_CHECK_ERROR2" href="group__mayautils.html#ga7f1bc77b6b7bbcb26db0b3095e0460fa"/>
+      <topic label="AL_MAYA_CHECK_ERROR_RETURN_NULL_MOBJECT" href="group__mayautils.html#ga298e2f4decf240161e1f11cfece79cb1"/>
+      <topic label="AL_REGISTER_COMMAND" href="group__mayautils.html#gaa301f3cab439ee5edbe2bf7ce9770908"/>
+      <topic label="AL_REGISTER_DATA" href="group__mayautils.html#ga22d66b4fc89dd1498a51fc3b8b5c4573"/>
+      <topic label="AL_REGISTER_DEPEND_NODE" href="group__mayautils.html#ga8209448b4a1382d8eae1a0299d2a239f"/>
+      <topic label="AL_REGISTER_DRAW_OVERRIDE" href="group__mayautils.html#gafc4105a1fe9ee698f1fd2ea66b42ab60"/>
+      <topic label="AL_REGISTER_SHAPE_NODE" href="group__mayautils.html#ga483822e28dc7cea4b1bf4719d65d5593"/>
+      <topic label="AL_REGISTER_TRANSFORM_NODE" href="group__mayautils.html#gaf4ff3f70027b8162cdc2ba236379a2f3"/>
+      <topic label="AL_REGISTER_TRANSLATOR" href="group__mayautils.html#ga5e5c3ab6b8f028142d8fed9105cb1b5a"/>
+      <topic label="AL_UNREGISTER_COMMAND" href="group__mayautils.html#ga1558b5afd904b6db6d8f0fb80f888772"/>
+      <topic label="AL_UNREGISTER_DATA" href="group__mayautils.html#gab80242ab07aae45a09cd92c9f66a3ccb"/>
+      <topic label="AL_UNREGISTER_DRAW_OVERRIDE" href="group__mayautils.html#gae712b6f13416e63f306293c99e533e8f"/>
+      <topic label="AL_UNREGISTER_NODE" href="group__mayautils.html#ga42a5c31e1de43e6ceec7eeb6c3b24409"/>
+      <topic label="AL_UNREGISTER_TRANSLATOR" href="group__mayautils.html#ga0e5df535ff7e16cec8a2c4de4b6afe9c"/>
+      <topic label="LAYER_HANDLE_CHECK" href="group__mayautils.html#ga73b4939c29af7ac10e6636d098648e86"/>
+    </topic>
+    <topic label="Usd Maya" href="group__usdmaya.html">
+      <topic label="Nodes" href="group__nodes.html">
+        <topic label="Layer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html">
+          <topic label="Layer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ae31a85443d6a6a0cb960052b13dbf12e"/>
+          <topic label="addChildLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a08d36015450ac6d13ae2324133683ce0"/>
+          <topic label="addSubLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#aab8c4f822ebf41a4edf4cc6c6d7ed6e9"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a2ab9e04113df512e13a18863ecc7c604"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ac1f1108ff413df96bf1a23ee3c66e6d0"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a48b03982f2804a15d6caed4b2875b0b2"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a400a2a7fe04b1762359d848d8a56a979"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a0942d1c1bcd5502e915c0a42a3019351"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a289939824b306dab30100570af5d66af"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a177b78aecfb707acd95790b1d20c79f2"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a1fa886d0bfea64592a62ea23c8a38e2d"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a2d7c7c4bb9f36e0b9569e4ffc590c93f"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#aefc9832bf0b07e25fdc30784e82ea5fd"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#aa29539d06576cabc215e1a5fff00d326"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a6d3bad919a8ee443e7a8b70e042ce1ac"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a132f52be016eb2a8825ccd31c869f5cb"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a621cec07794780c55d2b902a785c49fc"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ac5bee8822f6dc172ac7ac3b934fbfc62"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#abec3024d1e954d555c6525d33ecdc775"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a9228613679d6eb64fffcf0a3b62ab148"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a7e4ed8b1c47cfee0943636387e222742"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#aaf4cc2d9f3e4cdaed098eb6c75f5210a"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a99c57cad84abe1b62beae46fc7718e1f"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a3d5f26c461c0ab0de31bc1743e846a46"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ae5a6b2e410ca2f922654900b9e540ab5"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ae44b37265fd99733cda1246e23d5b895"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a63f82dcfaf91e5cd734b7b0499819bc3"/>
+          <topic label="AL_MAYA_DECLARE_NODE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a96c166deeb3094658b65df4e70900cd2"/>
+          <topic label="buildSubLayers" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a01b49a5d5800f5de661a0ab1b571c34e"/>
+          <topic label="findChildLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a6cfcaf9b4cb593fcac92e8482deb5974"/>
+          <topic label="findLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a87be7f6d692870184266c0af5780d2d0"/>
+          <topic label="findSubLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ad21766023a3201d8ef05f1850c069cd9"/>
+          <topic label="getChildLayers" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a83c11c37768a22b49f31eb59cf1796f4"/>
+          <topic label="getHandle" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a3a318f580cf0016a7dd0e293f4f26c05"/>
+          <topic label="getParentLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a122a949fb8c66f3cdbd0e96ceb00b7c8"/>
+          <topic label="getProxyShape" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a3149b1450f40762053fdb52b8aaa5686"/>
+          <topic label="getSubLayers" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a883ca86e47320c1c0394b352b88481bf"/>
+          <topic label="hasBeenTheEditTarget" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a37661be2f6f2f7556e2b528b38da626a"/>
+          <topic label="init" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#adef492d0a8353d4c7ab4f8587bfe9913"/>
+          <topic label="parentLayerPlug" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a6d57eae96e020f90f61717cc3fd8e166"/>
+          <topic label="populateSerialisationAttributes" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a96a46683a1d382c6d864b9dc7ab245ed"/>
+          <topic label="removeChildLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a9bbbcddb111685aad34112fc5372161d"/>
+          <topic label="removeSubLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a188952c2781308447ab924621ba9c7a0"/>
+          <topic label="setHasBeenTheEditTarget" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ae21b4142efb68040f2db86dd3430d1ab"/>
+          <topic label="setLayerAndClearAttribute" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#abb3716f8d728c4a5259d2cf01537de08"/>
+          <topic label="testing_clearHandle" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a8c52742e1160a0703b83677bd06fd731"/>
+        </topic>
+        <topic label="LayerVisitor" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html">
+          <topic label="LayerVisitor" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#a7c96eb9e07e8b5b6bc50bd74956e2a84"/>
+          <topic label="~LayerVisitor" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#aa0a42d7900b56374ffd3fd199efc06d3"/>
+          <topic label="depth" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#a679dc8936b59095a5e8da95a1c36239c"/>
+          <topic label="isSubLayer" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#a5799477bd47bd1c8f7d05492cd865459"/>
+          <topic label="onVisit" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#ae2efdeb023aa0e407702a6edbf0535d1"/>
+          <topic label="parentLayer" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#ad8fdea5898d12c6a514721e8800ba9c0"/>
+          <topic label="thisLayer" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#a5c7a8ce9957fbd90d69e3fd41ac3041d"/>
+          <topic label="visitAll" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#aba3b1787f6ee6879db45ebf002f71ba5"/>
+        </topic>
+        <topic label="ProxyDrawOverride" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html">
+          <topic label="ProxyDrawOverride" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html#ae5ea69fb7c7a4a2e5f9c54fb4e16fb48"/>
+          <topic label="~ProxyDrawOverride" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html#af7cfd376e0eff30bc79ac48b96b77c79"/>
+          <topic label="boundingBox" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html#a8cefb034f415010dd5f419be9493af16"/>
+          <topic label="isBounded" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html#a23c7732fe7a42ee01cfb5266d9dc1ef2"/>
+          <topic label="prepareForDraw" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html#a9d1b4941c90f3bc831546ec8686a71b5"/>
+          <topic label="supportedDrawAPIs" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html#a7080f614d613e8417ec692e76cc77e09"/>
+        </topic>
+        <topic label="ProxyShape" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html">
+          <topic label="MObjectToPrim" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ae715db120e39afe0343aebe428ee9433"/>
+          <topic label="TransformReason" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a4373215cb1d17ca4a386d9cf2fa221a9">
+            <topic label="kSelection" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a4373215cb1d17ca4a386d9cf2fa221a9abb58463fe579f4d42c82014627d5bc77"/>
+            <topic label="kRequested" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a4373215cb1d17ca4a386d9cf2fa221a9a674a77b5124e7d35e454e8a21ce9b906"/>
+            <topic label="kRequired" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a4373215cb1d17ca4a386d9cf2fa221a9abf16d1bb0a9726a48adf15e93521a68f"/>
+          </topic>
+          <topic label="ProxyShape" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#afc0963037d21cde3715779a82be38de5"/>
+          <topic label="~ProxyShape" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a09c42405ee74cbac7502a9fa04d564dd"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a8cd06382a7d5ba9b81a67092cbdc0005"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a306269ff47cf3a04cbf77d23790bffc4"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a03c74a25ed24e6e5d97c79e2836e9ded"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a4104440191ac7eb8540edccefb19fc9a"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a9a2506f35d660d9da02f675b3fd32847"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a2190065c92df3743a6e4617b3991c439"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a96fa4b7042ab900fe870abbd25c1f785"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ad622cdd34a2f26d69cbc9128f09b3bf9"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a20427ce4be38763ff501ff339a3e7019"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aa2991e63c3e74ecb319d03c915c64165"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aeba6ac53c765e94cf36c932fd566c655"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aa6c46c383ad96ec14b1e472fe85314b7"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a8baf22dcdcdb8710aed26ca836d9a5eb"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a3ac4378b540d9a49e456788221d30639"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ac91e793a32dcb3ce255e9380def33634"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aeea2093a76d765575f6935b9f3714816"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ac68fbcd573c6520d08f30af0491d96b1"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aed0737571ee0bab1ce5615fe4dafaacb"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a84b691b194bbc50c80f72fd68f7709c2"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a04fe18fc1b7ff90f4d0b3296c0d6f6a6"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a74c190c98aaf02e2c2c223c98856fe6a"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a070c0df113eba992ea624b31e69d8601"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a67a36017df1e67e71fc2a9e7cc5f29b3"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a150c6f4aded113b21161377a5347f6a4"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a3a4a64ee0e28891659d9cbe125faf8a7"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ad33be147b55a99dacb636a02c862d747"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a001ace1d9b298a31be415d4ebf142dfc"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a62cfdcef0aa22228ac649c7623cca41e"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a89a098872742a59fe4fa4539e9b80215"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a1162bf91f9d42ad872c7041489cdf62e"/>
+          <topic label="AL_MAYA_DECLARE_NODE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#af7b25d925b9d9b7c588c01ac2d090d07"/>
+          <topic label="boundingBox" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a8fe56336a6bb8c8a40c044035c73ada5"/>
+          <topic label="constructGLImagingEngine" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a0df98e91f9603de95e3dc35cc014b236"/>
+          <topic label="deserialiseSchemaPrims" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aa93ebd6a079ec507d430c8d6d6fc68a5"/>
+          <topic label="deserialiseTransformRefs" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#afd707455deb5881c52990af473ed6659"/>
+          <topic label="deserialiseTranslatorContext" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a4effb8b4c694b04cf36c99dfa8e39d3b"/>
+          <topic label="destroyTransformReferences" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#af2c12296f8525ed9edd1bf6950922d2d"/>
+          <topic label="doSelect" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a0449129acd531ab5a3d0821b6a74a27c"/>
+          <topic label="engine" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#afc052f213d47b1deaf1e13b300ffc7d9"/>
+          <topic label="filterUpdatablePrims" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a5e6eca0a7b4eab9a567db6b29de86ef5"/>
+          <topic label="findExcludedGeometry" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a3c2b83700017c82a7e1ff2f455a26931"/>
+          <topic label="findLayer" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a18d8ca915b6878e5ad38988e7fe9e94b"/>
+          <topic label="findLayerMayaName" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ab2b4400ddb08d0dc6c3e7c5835f9fede"/>
+          <topic label="findRequiredPath" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a9d0c61439cc2bc72e7f1fe5f52c54adc"/>
+          <topic label="getLayer" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a22dfabe791dc75b1fd4723e5d2c960d8"/>
+          <topic label="getRenderAttris" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a40008dddd3a6a3563577cf030e4d72e1"/>
+          <topic label="getRootPrim" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a211f3625cfd4e43d9b18e32a541db982"/>
+          <topic label="getUsdStage" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a417a6d750abbcdb39e92bdda71d3dc68"/>
+          <topic label="huntForNativeNodesUnderPrim" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ab91f2c63fdb8fd4482625642d131b31b"/>
+          <topic label="isRequiredPath" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a7f9ca28c091ed8f6fa4fad910f55e4bf"/>
+          <topic label="makeUsdTransformChain" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a230d9f9cc769e3f74ada0b69064b49ed"/>
+          <topic label="makeUsdTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aba8023459a8e19669094647b26f82c9b"/>
+          <topic label="onPrePrimChanged" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a289a22574cdd36d316c51c7754373812"/>
+          <topic label="onPrimResync" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a818953aac7fa11e22afc90084db0d23a"/>
+          <topic label="primChangedAtPath" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aa0c729fc518ea2470340db183eb339c1"/>
+          <topic label="printRefCounts" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ab9d693b2b3e162482bae95acca3f5fcf"/>
+          <topic label="removeUsdTransformChain" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a6f509afd3a7d5e93fd4eb55720aa3bba"/>
+          <topic label="removeUsdTransformChain" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a390c6bab73f71d911ea04547ec75a182"/>
+          <topic label="removeUsdTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#af93e27c060bc1c88ab1aba5659e8ecf9"/>
+          <topic label="schemaDB" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a9c0d14a1239c4b6ad17a1f6ba5886df0"/>
+          <topic label="selectedPaths" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a218cb9a257998865ecb16c6e09bcf347"/>
+          <topic label="selectionList" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#acdfd2e56e27465a712af6a0197fb7dd0"/>
+          <topic label="serialiseSchemaPrims" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a12726e9e3d2f3de4a7f884b6b80a0c1c"/>
+          <topic label="serialiseTransformRefs" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a6c69a1635b390b775ddd02264c4889d3"/>
+          <topic label="serialiseTranslatorContext" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ad2b35ba33b7d59738a8137f151780b2a"/>
+          <topic label="setChangedSelectionState" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ad1eaaddf1075e59cf88bcf54d7b2e0fd"/>
+          <topic label="setHaveObjectsChangedAtPath" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a3554c09623b318124c2758a23a4d32bd"/>
+          <topic label="unloadMayaReferences" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a85bed0f9897764735a87c7f1be1b787d"/>
+          <topic label="ProxyShapeUI" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a17518b980d5a577b6c71cb2e03b23792"/>
+          <topic label="SelectionUndoHelper" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ac3453f7d74a93f163b79cab86ba710f0"/>
+        </topic>
+        <topic label="ProxyShapeUI" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html">
+          <topic label="ProxyShapeUI" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html#a4e48a5415001400cc0d1d9cb7d40295a"/>
+          <topic label="~ProxyShapeUI" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html#a3538bf02b3f209d4f76bde53f31b8910"/>
+          <topic label="draw" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html#a908cf6a6d0b373f02223407393f3e3a4"/>
+          <topic label="getDrawRequests" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html#ad11a4df8056f5fa78352fbcc6d46c99e"/>
+          <topic label="select" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html#aacafec2a648ad956a0bb1cb73ed2a713"/>
+        </topic>
+        <topic label="Transform" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html">
+          <topic label="~Transform" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a7661ca4486f9b4c1bb55303f5e29f089"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a5a7d22bc3cd6458e2f6d683414351515"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a9d27e7867bad07ce6b21bd41306d89ce"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a6c26b41bb30cdcf4c165f3dc09692c15"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#aae6b8498f3bfe99bb12d5b3011492f24"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a0f297bf182490598b9c8d9535a204c25"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#ae8d2918576df24b27b9cf87d257de275"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#aabe7cb75280d02410be4435b34980391"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a5c954be32cb598a2025f2cb1a5a1e269"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a1bbcc4fffb79cd1ddc73af7d093123d7"/>
+          <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a35603b57de1feb0bd6155819c3e67f66"/>
+          <topic label="AL_MAYA_DECLARE_NODE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#ad698059a1d41800e8fd2f9f08e171230"/>
+          <topic label="getUsdPrim" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#ae041684fb4de2115c12e71fe1cc610f7"/>
+          <topic label="schedulingType" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#aa74af0b2205e7f9bf07d96b3ccd0d50d"/>
+          <topic label="transform" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a57abea2eab0844c2f13c603ffbdec90b"/>
+        </topic>
+        <topic label="TransformationMatrix" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html">
+          <topic label="TransformationMatrix" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a1275f09398ca8bb2f53489aaf55b455e"/>
+          <topic label="TransformationMatrix" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a8e94d2f8a54c04fd25e61c3723d277c7"/>
+          <topic label="enablePushToPrim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a21354f9e07a345f5c21f2bb05c0ec88b"/>
+          <topic label="enableReadAnimatedValues" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a3cf73cf57dfb8df45349eb6abf6d1279"/>
+          <topic label="getTimeCode" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#adb53d1cfe83c77404e8796549b0cbbac"/>
+          <topic label="hasAnimatedMatrix" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a54172b674883ea1838076de53ce24fba"/>
+          <topic label="hasAnimatedRotation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a0ebddeaf50346b874de7035708e9d599"/>
+          <topic label="hasAnimatedScale" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a81d622ff499fda4f84c8bb96913eef78"/>
+          <topic label="hasAnimatedShear" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a752305032671315b1c00f5df20405e53"/>
+          <topic label="hasAnimatedTranslation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a38bd8da10b052549a7a59427a1fd6c45"/>
+          <topic label="hasAnimation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ae3e6c15fb13ac31959acee9847bf3adf"/>
+          <topic label="initialiseToPrim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a05a715d47b7b2a446aaf9ccc2bb18337"/>
+          <topic label="prim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#aa8c018c038ab46f1685777b65364dcda"/>
+          <topic label="primHasPivot" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a774f7ca79dcbc0c5b2ffd138f8d8d331"/>
+          <topic label="primHasRotateAxes" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a588905db6e71b79f39f32d1f32d927a8"/>
+          <topic label="primHasRotatePivot" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a99529232fc7764a289065fa3f0de4284"/>
+          <topic label="primHasRotatePivotTranslate" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#afcfb06e5d8ba8d90236c98d529b4ccdb"/>
+          <topic label="primHasRotation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#aba200f3337f724f135ce1709b1662cc7"/>
+          <topic label="primHasScale" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a64540212911bb911006cd69f8d4f47c1"/>
+          <topic label="primHasScalePivot" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a58c43256ceffd175446212eb7c5ed695"/>
+          <topic label="primHasScalePivotTranslate" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a2848f5ecaae5bcc78795482cc4799ca7"/>
+          <topic label="primHasShear" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ad0582587014ca8a296f029619262c188"/>
+          <topic label="primHasTransform" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a0dd591e72421aac81d7bc93eac8e3660"/>
+          <topic label="primHasTranslation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ae38af56896d2d598694a231c943744ab"/>
+          <topic label="pushPrimToMatrix" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#af408204844c68a6317db3b6c82064622"/>
+          <topic label="pushToPrim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a990311b9c1da5e2fd2bdbcea541a2d88"/>
+          <topic label="pushToPrimEnabled" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ad4a6f175425f2cc98ed34a45a11061ae"/>
+          <topic label="readAnimatedValues" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ac0e08b7e6b395643d764b92b2c7df730"/>
+          <topic label="setLocalTranslationOffset" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a1cfb5683ae2c44369a5892c95a4bbd0b"/>
+          <topic label="setPrim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a4a1e0af5ab23692830c720112968a6ef"/>
+          <topic label="updateToTime" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a71fb1f5fa51c9792884418848022eea8"/>
+        </topic>
+        <topic label="SchemaNodeRef" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRef.html">
+          <topic label="SchemaNodeRef" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRef.html#a4ab85ac65887484754e3572ae48f1957"/>
+          <topic label="~SchemaNodeRef" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRef.html#a6862f333cdc853df08b84e1432d93f06"/>
+          <topic label="mayaObject" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRef.html#ae43593f91610cb86844cf2c64ef8f7bb"/>
+          <topic label="primPath" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRef.html#ae766b0d3c7d40ccd5364162c6a05c53a"/>
+        </topic>
+        <topic label="SchemaNodeRefDB" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html">
+          <topic label="value_compare" href="structAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB_1_1value__compare.html">
+            <topic label="operator()" href="structAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB_1_1value__compare.html#a844b180571d25f0339110e24a14ac75b"/>
+            <topic label="operator()" href="structAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB_1_1value__compare.html#ab6348d86a1ca0cd3f8e29a90bc0a6d2f"/>
+            <topic label="operator()" href="structAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB_1_1value__compare.html#a2268de7f3294340216f72b728b769756"/>
+          </topic>
+          <topic label="SchemaNodeRefDB" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a3a43f7b05f8241098378f64af0247033"/>
+          <topic label="~SchemaNodeRefDB" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a9de3957a7ed51d032b1084642fefec60"/>
+          <topic label="addEntry" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a62cfa828dedeae7486619ded8794dff4"/>
+          <topic label="context" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#aa904d11f522e21982bc07be6a13082ec"/>
+          <topic label="deserialize" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a85b46c1f63e706afc950e1d22f827b83"/>
+          <topic label="hasEntry" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#ac7f6ac256c2ac588149285f843672b23"/>
+          <topic label="lock" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a165923128330e0c56f6e83aecff86fc7"/>
+          <topic label="outputPrims" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#af751402430e37e0e06f75165014e2c75"/>
+          <topic label="preRemoveEntry" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#aacc0812d6e3af8ad712be2de1b66fc54"/>
+          <topic label="proxy" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a51d07d5f595d7c5641e374524f1ac594"/>
+          <topic label="removeEntries" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a421545b37784a672da9d585b342599b0"/>
+          <topic label="serialize" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a92e8876ccca328bc7df7696adc593082"/>
+          <topic label="translatorManufacture" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a920927d2b0f53c4ac6d6638cc91233b5"/>
+          <topic label="unlock" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a1f62ab98259ca408edcc8665867cf33c"/>
+        </topic>
+      </topic>
+      <topic label="Commands" href="group__commands.html">
+        <topic label="LayerCommandBase" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCommandBase.html">
+          <topic label="getSelectedNode" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCommandBase.html#aa6ebef05a06ededf91c8f880d98629bf"/>
+          <topic label="getShapeNode" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCommandBase.html#aa38da4f79356fbc32f42807c1e1e27de"/>
+          <topic label="getShapeNodeStage" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCommandBase.html#aaee4b42e9e4023edbf373f4c064958d5"/>
+          <topic label="makeDatabase" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCommandBase.html#a72887454562e102915d1be8365830ab0"/>
+        </topic>
+        <topic label="LayerGetLayers" href="classAL_1_1usdmaya_1_1cmds_1_1LayerGetLayers.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerGetLayers.html#a4e0625ec88549b2a07d79b010f7e39f9"/>
+        </topic>
+        <topic label="LayerCreateSubLayer" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCreateSubLayer.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCreateSubLayer.html#aadf5bcdb442fa5863b79ffcd0f7199bd"/>
+        </topic>
+        <topic label="LayerCreateLayer" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCreateLayer.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCreateLayer.html#a2a5cf498aa06b779dc89c9de10eaa147"/>
+        </topic>
+        <topic label="LayerSave" href="classAL_1_1usdmaya_1_1cmds_1_1LayerSave.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerSave.html#a733dfdec650a56bf390d70536f64687e"/>
+        </topic>
+        <topic label="LayerExport" href="classAL_1_1usdmaya_1_1cmds_1_1LayerExport.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerExport.html#a6190f2ad5290895c988a89c19ff9cfe3"/>
+        </topic>
+        <topic label="LayerCurrentEditTarget" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCurrentEditTarget.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCurrentEditTarget.html#aa8e154e594f7c5106a42dd42c7d6f312"/>
+        </topic>
+        <topic label="LayerSetMuted" href="classAL_1_1usdmaya_1_1cmds_1_1LayerSetMuted.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerSetMuted.html#adc8e5130929c8013af5ee5213b6bd123"/>
+        </topic>
+        <topic label="ProxyShapeCommandBase" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeCommandBase.html">
+          <topic label="getShapeNode" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeCommandBase.html#afdcbfa8236925118d18e5a4c9b51289a"/>
+          <topic label="getShapeNodeStage" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeCommandBase.html#aa8e96606e8469302ccdb7688310504b1"/>
+          <topic label="getShapePath" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeCommandBase.html#a38a2909f806683499d3486443a2ba345"/>
+          <topic label="makeDatabase" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeCommandBase.html#a786ba621119ef09e1cc35f1a48b9d8f0"/>
+        </topic>
+        <topic label="ProxyShapeImport" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImport.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImport.html#a3da9feec9b1f2d6de0ad3a86d412f5b4"/>
+        </topic>
+        <topic label="ProxyShapeFindLoadable" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeFindLoadable.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeFindLoadable.html#ac4e73b408c916925dac7f1c797da5c18"/>
+        </topic>
+        <topic label="ProxyShapeImportAllTransforms" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImportAllTransforms.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImportAllTransforms.html#ad337dab3cdaa9fe1c391e0cf8b77a208"/>
+        </topic>
+        <topic label="ProxyShapeRemoveAllTransforms" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeRemoveAllTransforms.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeRemoveAllTransforms.html#aed8531d1a09e153779c1eade67844db9"/>
+        </topic>
+        <topic label="ProxyShapeImportPrimPathAsMaya" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImportPrimPathAsMaya.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImportPrimPathAsMaya.html#a8442f774738bc119fa50a78aa74c4e14"/>
+        </topic>
+        <topic label="ProxyShapePrintRefCountState" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePrintRefCountState.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePrintRefCountState.html#a87faa2512e9186869883d2a4522f2999"/>
+        </topic>
+        <topic label="ProxyShapeResync" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html#a1267615a226403898bf316fbc2f31a85"/>
+          <topic label="m_resyncPrim" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html#a929ae40213511de128dc9c8bbaf960fd"/>
+          <topic label="m_resyncPrimPath" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html#aa67bbf4607a8919171433bc908f9b699"/>
+          <topic label="m_runPostPrimChanged" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html#af248429f1e8efd764218c2a753a96a25"/>
+          <topic label="m_runPrePrimChanged" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html#aa3da68c236a56c02ab030c07f51514c3"/>
+          <topic label="m_shapeNode" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html#a884616213407ff8dc15ec0488ad3df77"/>
+        </topic>
+        <topic label="ProxyShapeSelect" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeSelect.html">
+          <topic label="~ProxyShapeSelect" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeSelect.html#a2f1b4f7e02588e4b40adc06d4645970b"/>
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeSelect.html#ab1a1858f9840485d49aeee7e2f406186"/>
+        </topic>
+        <topic label="ProxyShapePostSelect" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePostSelect.html">
+          <topic label="~ProxyShapePostSelect" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePostSelect.html#aae1c07c31f3709b1595817fd947bd1f4"/>
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePostSelect.html#a98600f9bf690adc8a9f212b8fb1394cd"/>
+        </topic>
+        <topic label="InternalProxyShapeSelect" href="classAL_1_1usdmaya_1_1cmds_1_1InternalProxyShapeSelect.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1InternalProxyShapeSelect.html#a66cf2708de2e27de385b0f3805f1f6b8"/>
+        </topic>
+        <topic label="ProxyShapePostLoadProcess" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePostLoadProcess.html">
+          <topic label="MObjectToPrim" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePostLoadProcess.html#a5a519b3353099135129723341b90d12f"/>
+        </topic>
+        <topic label="ChangeVariant" href="classAL_1_1usdmaya_1_1cmds_1_1ChangeVariant.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ChangeVariant.html#af706ebac5504d314ff4cf71d15d1b90a"/>
+        </topic>
+        <topic label="ActivatePrim" href="classAL_1_1usdmaya_1_1cmds_1_1ActivatePrim.html">
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ActivatePrim.html#a7e7b180329fc1b26408070ada67dddf1"/>
+        </topic>
+        <topic label="constructLayerCommandGuis" href="group__commands.html#ga6d618c86e04470c872b4e52560d43a66"/>
+        <topic label="constructProxyShapeCommandGuis" href="group__commands.html#ga96ed2b3397cc582bdefe39a5f528a7c0"/>
+      </topic>
+      <topic label="File IO" href="group__fileio.html">
+        <topic label="Translator API" href="group__translators.html">
+          <topic label="CameraTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1CameraTranslator.html">
+            <topic label="CameraTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1CameraTranslator.html#acb5b2f82c2d7bd9414f7db7c14c6bc19"/>
+            <topic label="~CameraTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1CameraTranslator.html#a2953454e6fe53fb16b226b61fcaf09f0"/>
+            <topic label="copyAttributes" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1CameraTranslator.html#a2134483c5310c7ea4d00dbd56c682a7c"/>
+            <topic label="createNode" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1CameraTranslator.html#a98a51d360b8245c98ed9830053231c92"/>
+          </topic>
+          <topic label="DagNodeTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator.html">
+            <topic label="applyDefaultMaterialOnShape" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator.html#a63da476f55588787635b1c677c82f60d"/>
+            <topic label="copyAttributes" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator.html#a349e89c0baacb18636d5decbcdc39084"/>
+            <topic label="createNode" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator.html#ada9bfc904123cb7e5cb2b3f16f1cb3ac"/>
+          </topic>
+          <topic label="DgNodeTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DgNodeTranslator.html">
+            <topic label="attributeHandled" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DgNodeTranslator.html#af4c93ba2ebf132266b7b236e6cc3b1fe"/>
+            <topic label="copyAttributes" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DgNodeTranslator.html#a4ee005901992afbc55b1114f07733271"/>
+            <topic label="createNode" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DgNodeTranslator.html#ad9eb39e94f830b9b6a759e62b4b2658d"/>
+          </topic>
+          <topic label="MeshTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html">
+            <topic label="attributeHandled" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html#ae891fb19f3f1afcd329babeb9d64f1af"/>
+            <topic label="createNode" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html#a8cb465ce5fec815f6a1c74c34fe22c14"/>
+          </topic>
+          <topic label="NurbsCurveTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1NurbsCurveTranslator.html">
+            <topic label="createNode" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1NurbsCurveTranslator.html#a0c6de4100e4ad14db91c63637cd6631f"/>
+          </topic>
+          <topic label="TransformTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TransformTranslator.html">
+            <topic label="copyAttributes" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TransformTranslator.html#a155ea6276d8bd2685486e308556b75a0"/>
+            <topic label="createNode" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TransformTranslator.html#a02e41d4df0323fcc015d02b532fdc6c3"/>
+          </topic>
+          <topic label="TranslatorAbstract" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html">
+            <topic label="Ptr" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#ae2362ca4cfa1eadddfa2b4008131d343"/>
+            <topic label="RefPtr" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a01c3897fdf2dbb7839d0601885dd278f"/>
+            <topic label="This" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#ade600ee302b2d65907574de179392f0a"/>
+            <topic label="~TranslatorAbstract" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a0fd94467db0b712eb8f374e9cade707f"/>
+            <topic label="getTranslatedType" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a5303e16e11f71cdfb4ed42da0f8a260c"/>
+            <topic label="import" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a4d7cc337c7d15894c4191e53a38775ab"/>
+            <topic label="initialize" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a87addd157908093085f8875cda7cf76d"/>
+            <topic label="needsTransformParent" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a8eb1c35a619354479dcb3ebb3e3129f9"/>
+            <topic label="postImport" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a11ada18c09e42da28d1b93274ffc62ab"/>
+            <topic label="preTearDown" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a70fbb32eb8ed8638ab872f1d0b0ae4c6"/>
+            <topic label="supportsInactive" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a5cad8f7b1cc3f500c37e567347cf18ee"/>
+            <topic label="supportsUpdate" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a4791276fb35ce48c60dd362c2f52fa3d"/>
+            <topic label="tearDown" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a9f886a9e776819ef7f235a75e587bf26"/>
+            <topic label="update" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#aece51923822ab802b9c49c9d2d5e3e4e"/>
+          </topic>
+          <topic label="TranslatorBase" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html">
+            <topic label="RefPtr" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#a9aa72ebd0a568016acf395e883cb7590"/>
+            <topic label="This" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#a0e2bcd48fcbfd8f3c1ed0a68899edc71"/>
+            <topic label="~TranslatorBase" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#a13e45a6f982eda19a407f01860e97cd9"/>
+            <topic label="context" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#a42719a26a7866556f7a1839c0f923612"/>
+            <topic label="getTranslatedType" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#ae0b6500fd7ae23610e611f000295006e"/>
+            <topic label="getUsdStage" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#ac4a4a1443f70f7d9cf4c6925a259ee94"/>
+            <topic label="setContext" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#a19cdaddec4599e1e9585795c2a326ea0"/>
+            <topic label="setTranslatedType" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#af55fd59dd381221789be2d0ea1a0c702"/>
+          </topic>
+          <topic label="TranslatorManufacture" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorManufacture.html">
+            <topic label="RefPtr" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorManufacture.html#a55bf5193de9f23e0e8ce652317e04b03"/>
+            <topic label="TranslatorManufacture" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorManufacture.html#ab207fe30cc3d8b199bb1836837d39be6"/>
+            <topic label="get" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorManufacture.html#a21c279c28a03fc12906c4a69437cee97"/>
+          </topic>
+          <topic label="TranslatorFactoryBase" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorFactoryBase.html">
+            <topic label="create" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorFactoryBase.html#afb7eb697c3a1e7ac36aff4beb9e88342"/>
+          </topic>
+          <topic label="TranslatorFactory" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorFactory.html">
+            <topic label="create" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorFactory.html#aaea0ed351c36386557eb28247e9ad8cc"/>
+          </topic>
+          <topic label="TranslatorContext" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html">
+            <topic label="RefPtr" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a9ce311000e2cceaebf44f8b0d6b474fb"/>
+            <topic label="This" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ac52acef1874fe83b9d67186bccd54ac7"/>
+            <topic label="~TranslatorContext" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a4c4cac22b8fb4e09f560a4368625084d"/>
+            <topic label="deserialise" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#abe1b8bc47a6f324713b2ce326f82e27e"/>
+            <topic label="getMObject" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#adfbc45eee1a44eec1054d4a0d2c5f32f"/>
+            <topic label="getMObject" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a9d51eccda81fcb0498a388169fe0b387"/>
+            <topic label="getMObject" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a62fd3c637310cde3ca9ea73ee6dc21fc"/>
+            <topic label="getMObject" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a4cb0672bb96abfdffff30edc9d55fb6e"/>
+            <topic label="getMObjects" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ac5c24f91fe391ed04a52cb64b79749eb"/>
+            <topic label="getMObjects" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a7439acf366e3da5cdfc87b3bb0dffc4a"/>
+            <topic label="getProxyShape" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ac5056885bb6ed9f76f8eb7b720e2d612"/>
+            <topic label="getTransform" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#afc8a2f011864e0ed9db13b7ffaf7820d"/>
+            <topic label="getTransform" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a62c545fe3982957403034179d358737f"/>
+            <topic label="getTypeForPath" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ae59a466d5b0c134faf7b6a419d33f7ac"/>
+            <topic label="getUsdStage" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ad6c2cebb6d006b0425108a9fabb9a2da"/>
+            <topic label="insertItem" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a4d28a0dcd8f8471600cc4467fcf78898"/>
+            <topic label="registerItem" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a846706430bf5ead8fac24d54b41fbd84"/>
+            <topic label="removeItems" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a34051ec0bc17e72e3aff9babcbe31df6"/>
+            <topic label="removeItems" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ab679d1eae5ce9defd26e5195aaf37794"/>
+            <topic label="serialise" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ab574907c76c714f326e8aa4b785bf425"/>
+            <topic label="updatePrimTypes" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a9b8dbcb6d9abcfd3e6c17b13062c569c"/>
+            <topic label="validatePrims" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ad8240a65f08e3766417e9cdfc6a74b6d"/>
+          </topic>
+          <topic label="AL_USDMAYA_DECLARE_TRANSLATOR" href="group__translators.html#gaa2ebd02f43bdd2c990c6b456969947f6"/>
+          <topic label="AL_USDMAYA_DEFINE_TRANSLATOR" href="group__translators.html#gad4cc30c4cde0e2dccd6c4d4d3283165f"/>
+        </topic>
+        <topic label="AnimationTranslator" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html">
+          <topic label="addMesh" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html#a51e3a7b5eed2e73b3df635b9b86415bf"/>
+          <topic label="addPlug" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html#ae0bb17ec491ecf7a829ba105befbaec2"/>
+          <topic label="addPlug" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html#a2c8c050252f8a39de23b99e6b37f1ff6"/>
+          <topic label="addTransformPlug" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html#ae89fb6a97c4abda37b49370b10b9d1fb"/>
+          <topic label="exportAnimation" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html#a0eacfd4908b4164d1c09daf9cb6700bc"/>
+        </topic>
+        <topic label="Export" href="classAL_1_1usdmaya_1_1fileio_1_1Export.html">
+          <topic label="Export" href="classAL_1_1usdmaya_1_1fileio_1_1Export.html#acfbe335ee413f1de583f74bd7523ef87"/>
+          <topic label="~Export" href="classAL_1_1usdmaya_1_1fileio_1_1Export.html#a370f5f5118f32177725a048848250c63"/>
+        </topic>
+        <topic label="ExportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ExportCommand.html">
+          <topic label="ExportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ExportCommand.html#ac26d5bf1082994bb5efaa54b18d756e0"/>
+          <topic label="~ExportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ExportCommand.html#a2cb7433a77539ea5e10383fda12fafb8"/>
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1fileio_1_1ExportCommand.html#a4f703cb4130ff8bfbbaa4ebcbe40ffc6"/>
+        </topic>
+        <topic label="Import" href="classAL_1_1usdmaya_1_1fileio_1_1Import.html">
+          <topic label="Import" href="classAL_1_1usdmaya_1_1fileio_1_1Import.html#a86e455da6980762c64e58dd4cd729736"/>
+          <topic label="~Import" href="classAL_1_1usdmaya_1_1fileio_1_1Import.html#af38f56223495d7cf2c4ae496f4d4f5cc"/>
+          <topic label="operator bool" href="classAL_1_1usdmaya_1_1fileio_1_1Import.html#a33e76d09841a88c3eeb676d8973fe6df"/>
+        </topic>
+        <topic label="ImportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ImportCommand.html">
+          <topic label="ImportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ImportCommand.html#a3b3c62d2ac0f4257e5b28723045069aa"/>
+          <topic label="~ImportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ImportCommand.html#a6742ab3b568c3b7e2b672be01b65fc53"/>
+          <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1fileio_1_1ImportCommand.html#acc644c2816039cc035abca683f34b698"/>
+        </topic>
+        <topic label="ImporterParams" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html">
+          <topic label="m_animations" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#aacc707a53e37524378afd21cbb366c70"/>
+          <topic label="m_dynamicAttributes" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#ade28b05e703d3e4e72b5e5d8c5e0803c"/>
+          <topic label="m_fileName" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#a31206b59d65fe131fd2c559497c21246"/>
+          <topic label="m_meshes" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#a6909983a6a3defb94689d72d5116c9fc"/>
+          <topic label="m_nurbsCurves" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#a241c1a6f5335a7e158d5cd0a140884db"/>
+          <topic label="m_parentPath" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#af1243ded9f02ab310fa5a5db36c3e063"/>
+          <topic label="m_rootLayer" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#aab6b143bb1a93bf676728fe9a10cef8f"/>
+          <topic label="m_sessionLayer" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#a9acf9d4881e17340db3bfe8564f56b57"/>
+          <topic label="m_stageUnloaded" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#a1b481bb43d4879871865267a546cc448"/>
+        </topic>
+        <topic label="NodeFactory" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html">
+          <topic label="NodeFactory" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#a07e4469094e108ae04df26e01fa67468"/>
+          <topic label="~NodeFactory" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#a988e711198575ea20b409c7599b73993"/>
+          <topic label="createNode" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#a92c9198a197bfc18f80cb96aac7c22c1"/>
+          <topic label="setImportParams" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#aa4aa1dd2c82cb10e3deec768e8b5c3db"/>
+        </topic>
+        <topic label="SchemaPrimsUtils" href="classAL_1_1usdmaya_1_1fileio_1_1SchemaPrimsUtils.html">
+          <topic label="SchemaPrimsUtils" href="classAL_1_1usdmaya_1_1fileio_1_1SchemaPrimsUtils.html#ad34ca5179523817028f78562a90fe3f3"/>
+          <topic label="isSchemaPrim" href="classAL_1_1usdmaya_1_1fileio_1_1SchemaPrimsUtils.html#a2ae0c6002daf7098c5f93cea978cc982"/>
+          <topic label="needsTransformParent" href="classAL_1_1usdmaya_1_1fileio_1_1SchemaPrimsUtils.html#a3d049244a5e200fd9057c4e32ecb246a"/>
+        </topic>
+        <topic label="TransformIterator" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html">
+          <topic label="TransformIterator" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a181ecea6b7d22c73138ba747aa5aaf66"/>
+          <topic label="TransformIterator" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a61cea2bd89d0a60ccd37afbbaa51b03f"/>
+          <topic label="append" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a5685cdb4b850238423951f63bae4834d"/>
+          <topic label="currentPath" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a03ad1045bc2bdaf1915c70e898d7181d"/>
+          <topic label="depth" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#ad0b2e872473fe52f37e2ccbaa1e0a19f"/>
+          <topic label="done" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a755d2826aa40fa21b89ea7c4ac2fd395"/>
+          <topic label="next" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#af5fbf716a0700e340ddb64c63c608157"/>
+          <topic label="parent" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a611562283f4e9b88894b8332ca876fea"/>
+          <topic label="prim" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a49410382866f3ba3ed8f4193c00d1dee"/>
+          <topic label="prune" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#ab0e11b681e38415d19b1da6f69eadaf6"/>
+        </topic>
+        <topic label="USE_AL_DEFAULT" href="group__fileio.html#ga5c405c84e4fa55211f21c47e45c624ad"/>
+        <topic label="AL_MAYA_TRANSLATOR_BEGIN" href="group__fileio.html#ga3f4e20a894b3571940ae1d0e590e52bd"/>
+        <topic label="AL_MAYA_TRANSLATOR_BEGIN" href="group__fileio.html#ga046eca293f9dd3ec6b29c5a40811a178"/>
+        <topic label="importSchemaPrim" href="group__fileio.html#ga96e04f9d167f995329de19b59950a542"/>
+        <topic label="isSchemaOfType" href="group__fileio.html#ga46452970b3b1a6e94145b67d0bb77436"/>
+      </topic>
+      <topic label="Global" href="classAL_1_1usdmaya_1_1Global.html">
+      </topic>
+      <topic label="StageCache" href="classAL_1_1usdmaya_1_1StageCache.html">
+      </topic>
+      <topic label="StageData" href="classAL_1_1usdmaya_1_1StageData.html">
+        <topic label="StageData" href="classAL_1_1usdmaya_1_1StageData.html#a04130488583cba5b5c42b24a27412d4c"/>
+        <topic label="~StageData" href="classAL_1_1usdmaya_1_1StageData.html#a8ef5febd761b20d625d9cb5ef0f66370"/>
+        <topic label="copy" href="classAL_1_1usdmaya_1_1StageData.html#a868c3344c03ca742437fb7a2d75c8b14"/>
+        <topic label="primPath" href="classAL_1_1usdmaya_1_1StageData.html#af8215cdbf77c70329982f13421d9479e"/>
+        <topic label="stage" href="classAL_1_1usdmaya_1_1StageData.html#aa736bf6ddb75fb77906a17c29ff5f179"/>
+      </topic>
+      <topic label="guid" href="structAL_1_1usdmaya_1_1guid.html">
+        <topic label="uuid" href="structAL_1_1usdmaya_1_1guid.html#a30ef7590e6e72221f4a1a6f6b1cb0057"/>
+      </topic>
+      <topic label="guid_compare" href="structAL_1_1usdmaya_1_1guid__compare.html">
+        <topic label="operator()" href="structAL_1_1usdmaya_1_1guid__compare.html#abcbaafe1b4092facd51015caacdff670"/>
+      </topic>
+      <topic label="MObjectMap" href="structAL_1_1usdmaya_1_1MObjectMap.html">
+        <topic label="contains" href="structAL_1_1usdmaya_1_1MObjectMap.html#ab1508329f5e032998c3c8cdd6415cace"/>
+        <topic label="insert" href="structAL_1_1usdmaya_1_1MObjectMap.html#aed10c59e437524fdc39d7a8283624350"/>
+      </topic>
+      <topic label="TransformOperation" href="group__usdmaya.html#ga2c3a800f8931e38ab4e10b0cf2ec6980">
+      </topic>
+      <topic label="UsdDataType" href="group__usdmaya.html#gabe4c70835b957dc08bf40e0c229cd236">
+      </topic>
+      <topic label="convert" href="group__usdmaya.html#ga9e83285bb9edc742e8250589ee302fff"/>
+      <topic label="convert" href="group__usdmaya.html#ga164f54da6a9189ed9325824a2da8ec68"/>
+      <topic label="getAttributeType" href="group__usdmaya.html#gafaaa852cec17128e2fb5f352e114d104"/>
+      <topic label="getAttributeType" href="group__usdmaya.html#ga77c4e54d7ba9cf97e1f4d33a0b056c66"/>
+      <topic label="mapUsdPrimToMayaNode" href="group__usdmaya.html#ga6885999ff6a14936d871fdc0cf086aa8"/>
+      <topic label="matchesMayaProfile" href="group__usdmaya.html#ga47c8b3ff22cb0d44be0e57dd95fb202f"/>
+      <topic label="matrixToSRT" href="group__usdmaya.html#ga358b7a108f6557ea1aefe111caf05c1f"/>
+      <topic label="registerPlugin" href="group__usdmaya.html#gaa4edec5f87980cd4a7a84c60b4c832f1"/>
+      <topic label="unregisterPlugin" href="group__usdmaya.html#ga03d499eef4ae1302dde337fc499f915a"/>
+      <topic label="xformOpToEnum" href="group__usdmaya.html#gaa18901b4e898f79b7e0e0dfcd6e4b9ed"/>
+    </topic>
+  </topic>
+  <topic label="Classes">
+    <topic label="Class List" href="annotated.html">
+      <topic label="AL">
+        <topic label="maya">
+          <topic label="CommandGuiHelper" href="classAL_1_1maya_1_1CommandGuiHelper.html">
+            <topic label="FileMode" href="classAL_1_1maya_1_1CommandGuiHelper.html#a1efbadfb1cf6edc8563f4000b60a40ed">
+              <topic label="kSave" href="classAL_1_1maya_1_1CommandGuiHelper.html#a1efbadfb1cf6edc8563f4000b60a40eda1a6263fa29ff8eb424110f083b91f303"/>
+              <topic label="kLoad" href="classAL_1_1maya_1_1CommandGuiHelper.html#a1efbadfb1cf6edc8563f4000b60a40edae47d834716b2915a811eb44e94423efc"/>
+              <topic label="kDirectoryWithFiles" href="classAL_1_1maya_1_1CommandGuiHelper.html#a1efbadfb1cf6edc8563f4000b60a40edadd8287ade34bfec6e0879b77bedaab2c"/>
+              <topic label="kDirectory" href="classAL_1_1maya_1_1CommandGuiHelper.html#a1efbadfb1cf6edc8563f4000b60a40eda857dd400d33fe45a10e1e813f2cd1eaf"/>
+              <topic label="kMultiLoad" href="classAL_1_1maya_1_1CommandGuiHelper.html#a1efbadfb1cf6edc8563f4000b60a40eda1953844ae73042d797c192c91eead341"/>
+            </topic>
+            <topic label="StringPolicy" href="classAL_1_1maya_1_1CommandGuiHelper.html#ad5c7e51aa8292323fa55941fbf958c3d">
+              <topic label="kStringOptional" href="classAL_1_1maya_1_1CommandGuiHelper.html#ad5c7e51aa8292323fa55941fbf958c3daee363f8df7409b4d57720571d39a14ef"/>
+              <topic label="kStringMustHaveValue" href="classAL_1_1maya_1_1CommandGuiHelper.html#ad5c7e51aa8292323fa55941fbf958c3da50dda3428f70f7a4345edbf0e7478b4c"/>
+            </topic>
+            <topic label="CommandGuiHelper" href="classAL_1_1maya_1_1CommandGuiHelper.html#ac391c08de085e452cffe45d7765b160f"/>
+            <topic label="CommandGuiHelper" href="classAL_1_1maya_1_1CommandGuiHelper.html#af69f72a659ce87da5555bf1eef4ff2b5"/>
+            <topic label="~CommandGuiHelper" href="classAL_1_1maya_1_1CommandGuiHelper.html#a256543a66d55df09dd1c85544efc93f9"/>
+            <topic label="addBoolOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#acccad5535bd277e174424b80ec67ae32"/>
+            <topic label="addColourOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a64c041c940ad640d41e512d86ca3bea1"/>
+            <topic label="addColourOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a8d767baebf50ff128394acb95fe0d68f"/>
+            <topic label="addDoubleOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#ae6f6f256d9cb02ece27d47ec3355d005"/>
+            <topic label="addDoubleSliderOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#adea57a0b5bb50c2a687a004c2036e3a3"/>
+            <topic label="addEnumOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a8633fdc5271144da14fe186aef26c2a3"/>
+            <topic label="addFilePathOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a50a6611af96d1d9903f55830c0b564a9"/>
+            <topic label="addFlagOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#ae69e24a378f82fb91c8ab4627cfd6798"/>
+            <topic label="addInt2Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a904b45d450e3e2b59798e76a5fe42e38"/>
+            <topic label="addInt2Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a2bc48599a603b78617dcc1c23a0b4e66"/>
+            <topic label="addInt3Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#abfa516ec1786766b07efd3bd50aa5a19"/>
+            <topic label="addInt3Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#adb1a8c4606deb836377d0c5d1679ab73"/>
+            <topic label="addInt4Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a0e46b2d25da1cbcc3dd684c046181b2a"/>
+            <topic label="addInt4Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a88705c2f16b917fd7426d87c6c21d338"/>
+            <topic label="addIntOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a826f42b0bc545138b095abdab14aacd3"/>
+            <topic label="addIntSliderOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a284b08297d95f3e958b79a555f3dc6e2"/>
+            <topic label="addListOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#ab652a44d36a5585d7c2b4359bc541783"/>
+            <topic label="addRadioButtonGroupOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#aeee7515e8e1879663392910e3656ab4b"/>
+            <topic label="addStringOption" href="classAL_1_1maya_1_1CommandGuiHelper.html#a0f507f55406b7c5d81d3cf6100ea0eb5"/>
+            <topic label="addVec2Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#ad7abd3036b27cb8b9cdfd92da002be16"/>
+            <topic label="addVec2Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a276a309fea2433a01648e65e4b811083"/>
+            <topic label="addVec3Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#aa23904315ffc5471c283b50d011de445"/>
+            <topic label="addVec3Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a9a933dc6f652563afbade1ed6b386e45"/>
+            <topic label="addVec4Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a14a6d7db998ef52362a7b8d3d8343b96"/>
+            <topic label="addVec4Option" href="classAL_1_1maya_1_1CommandGuiHelper.html#a783849f01c90cd37ea461a17f323c208"/>
+          </topic>
+          <topic label="CommandGuiListGen" href="classAL_1_1maya_1_1CommandGuiListGen.html">
+            <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1maya_1_1CommandGuiListGen.html#a7b102ae036cc01ce574bcb5855a9ceba"/>
+          </topic>
+          <topic label="DgNodeHelper" href="structAL_1_1maya_1_1DgNodeHelper.html">
+            <topic label="DgNodeHelper" href="structAL_1_1maya_1_1DgNodeHelper.html#a6a2548c83b1f8a35abf0894a03c032ae"/>
+            <topic label="~DgNodeHelper" href="structAL_1_1maya_1_1DgNodeHelper.html#a675416e6509bf9a9147485ae6132beb1"/>
+          </topic>
+          <topic label="FileTranslatorBase" href="classAL_1_1maya_1_1FileTranslatorBase.html">
+            <topic label="reader" href="classAL_1_1maya_1_1FileTranslatorBase.html#aa9559fb9c467242bcf316a0aed4f5031"/>
+            <topic label="writer" href="classAL_1_1maya_1_1FileTranslatorBase.html#ac585d22e2da9d216cc543169dd041a17"/>
+          </topic>
+          <topic label="FileTranslatorOptions" href="classAL_1_1maya_1_1FileTranslatorOptions.html">
+            <topic label="FileTranslatorOptions" href="classAL_1_1maya_1_1FileTranslatorOptions.html#a1335480ab0d74d50b8d5ebf2126c32b2"/>
+            <topic label="addBool" href="classAL_1_1maya_1_1FileTranslatorOptions.html#afa25b5fcdd0a5f2329c11bd69d057f9c"/>
+            <topic label="addFloat" href="classAL_1_1maya_1_1FileTranslatorOptions.html#aebe3072ee1c1c17cfdf3f96ee88df072"/>
+            <topic label="addFrame" href="classAL_1_1maya_1_1FileTranslatorOptions.html#a13136de063ac717f0b0dd7b143d919fb"/>
+            <topic label="addInt" href="classAL_1_1maya_1_1FileTranslatorOptions.html#ad37e8f2abf3d294d2ecfd73346f1ecd0"/>
+            <topic label="addString" href="classAL_1_1maya_1_1FileTranslatorOptions.html#a8968ae69a749c6965fab1ccb249d2e1c"/>
+            <topic label="boolControlsVisibility" href="classAL_1_1maya_1_1FileTranslatorOptions.html#a86fc94b723effa18773e54ccf4bae4c4"/>
+            <topic label="generateBoolGlobals" href="classAL_1_1maya_1_1FileTranslatorOptions.html#aa488d17bf075ed1d1d3d3c49b5b7c8e8"/>
+            <topic label="generateFloatGlobals" href="classAL_1_1maya_1_1FileTranslatorOptions.html#a5436eefb5d6af4f7662f7aadf2e490d4"/>
+            <topic label="generateIntGlobals" href="classAL_1_1maya_1_1FileTranslatorOptions.html#aec48b8cc16f3140082a1c9faed807009"/>
+            <topic label="generateScript" href="classAL_1_1maya_1_1FileTranslatorOptions.html#a70a96e76e454619c9759f9e1d3a9b0c6"/>
+            <topic label="generateStringGlobals" href="classAL_1_1maya_1_1FileTranslatorOptions.html#a8b5c6ab777c22a85bb0a4ead9380e69f"/>
+            <topic label="hasOption" href="classAL_1_1maya_1_1FileTranslatorOptions.html#aef4ffd9f85cce1412800ac6c045b67b4"/>
+            <topic label="hasOption" href="classAL_1_1maya_1_1FileTranslatorOptions.html#aa36d9853a130591057e07f08f1a4ad65"/>
+          </topic>
+          <topic label="MenuBuilder" href="classAL_1_1maya_1_1MenuBuilder.html">
+            <topic label="Menu" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html">
+              <topic label="~Menu" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#a3916cc0a9e3608dd3c49871c5cdd295b"/>
+              <topic label="childMenus" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#ad8ff9193bfdb0d02eff47044b1aa02e1"/>
+              <topic label="generate" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#abb643bf89f1d8e20b663c722a0b76000"/>
+              <topic label="menuItems" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#ad5df1bd5d3c5ed1218ed489baabb1e14"/>
+              <topic label="name" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#a95b18f9213ecdd399b58a7dd4145dcfb"/>
+              <topic label="operator&lt;" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#aadf34aa634337391ba0178807a05b253"/>
+              <topic label="operator==" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#a6dca17c047cd47b1a2e4fe9c57c07229"/>
+              <topic label="print_indent" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#ae27700dc620f9a6ccfc753a32a626e89"/>
+              <topic label="MenuBuilder" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html#a4ee71615f1ddd019be11cc6d8dd07de0"/>
+            </topic>
+            <topic label="MenuItem" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html">
+              <topic label="checkBox" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html#aa410356e100c4a37890d600cce682cb0"/>
+              <topic label="checkBoxValue" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html#ab52af54c8f3131d7d6c4f2ce60042c38"/>
+              <topic label="command" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html#acb395b090ad16411a021f801ec2f2447"/>
+              <topic label="label" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html#a3867170ffa2a9aae08266c872ec404ee"/>
+              <topic label="optionBox" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html#ad2a038e04dd7818e26275a9097fe52ea"/>
+            </topic>
+          </topic>
+          <topic label="NodeHelper" href="classAL_1_1maya_1_1NodeHelper.html">
+            <topic label="AttributeFlags" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7">
+              <topic label="kCached" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a3685f160ccfeafca61dc7dcd655548f1"/>
+              <topic label="kReadable" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7abcfba33b7ad2b367613427dd818ce42d"/>
+              <topic label="kWritable" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7af712f6c240a527fce274a0c34c11df6a"/>
+              <topic label="kStorable" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a48c3fda9d0f4584a56b6cfb865970c76"/>
+              <topic label="kAffectsAppearance" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a65a2b1124f88abdef4cb4f5a852d0875"/>
+              <topic label="kKeyable" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7ac48080fda887ea28b3907180bd26d4de"/>
+              <topic label="kConnectable" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a42fa36da0e0440417fa4b5a1d7efa2a0"/>
+              <topic label="kArray" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a1976db8c48baec13c23d3f59d7a26994"/>
+              <topic label="kColour" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7adf17a25aec55f147715113b4a1908bb9"/>
+              <topic label="kHidden" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7ac8c9c61394b1c1c2d5333b58e6a11ec3"/>
+              <topic label="kInternal" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a00e88714ae6c9a0d3e43e8d2e7f80e56"/>
+              <topic label="kAffectsWorldSpace" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7ae50b634c9a971191db75edaf85ed7c5a"/>
+              <topic label="kUsesArrayDataBuilder" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a213bc826c0e629f75f71aaadaaa65fa3"/>
+              <topic label="kDontAddToNode" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7a37e03517c2afce8092d3e96b94cc2d38"/>
+              <topic label="kDynamic" href="classAL_1_1maya_1_1NodeHelper.html#aecba6e331553398c47d218d678e823d7ab7f4ee28de454f741b28ca11c85d639b"/>
+            </topic>
+            <topic label="FileMode" href="classAL_1_1maya_1_1NodeHelper.html#a7670bef2e60ec7cf0eeb0dac168b09a1">
+              <topic label="kSave" href="classAL_1_1maya_1_1NodeHelper.html#a7670bef2e60ec7cf0eeb0dac168b09a1aec1c02ede8330de9272c54e661bd5810"/>
+              <topic label="kLoad" href="classAL_1_1maya_1_1NodeHelper.html#a7670bef2e60ec7cf0eeb0dac168b09a1a0a5f671121e0ac6dc29077103c6fe88b"/>
+              <topic label="kDirectoryWithFiles" href="classAL_1_1maya_1_1NodeHelper.html#a7670bef2e60ec7cf0eeb0dac168b09a1a2931c2cbec5c09f461a4c5c525b402b1"/>
+              <topic label="kDirectory" href="classAL_1_1maya_1_1NodeHelper.html#a7670bef2e60ec7cf0eeb0dac168b09a1afab8becdb365d4032505c01c20cc8923"/>
+              <topic label="kMultiLoad" href="classAL_1_1maya_1_1NodeHelper.html#a7670bef2e60ec7cf0eeb0dac168b09a1a35a4425facde66803ea8cceaf3112646"/>
+            </topic>
+            <topic label="NodeHelper" href="classAL_1_1maya_1_1NodeHelper.html#ac241827470a94a3bd61d85c481f9537f"/>
+            <topic label="~NodeHelper" href="classAL_1_1maya_1_1NodeHelper.html#a6b8f93a907e2c5d81e82f04428340a9c"/>
+          </topic>
+          <topic label="OptionsParser" href="classAL_1_1maya_1_1OptionsParser.html">
+            <topic label="OptionsParser" href="classAL_1_1maya_1_1OptionsParser.html#a1e6c622e8931736addbdeb756356607f"/>
+            <topic label="~OptionsParser" href="classAL_1_1maya_1_1OptionsParser.html#a9134fac6b8c1769279b8c46564efd0fa"/>
+            <topic label="getBool" href="classAL_1_1maya_1_1OptionsParser.html#ac2da944ca8a5730f0e67bdaa8ee84933"/>
+            <topic label="getFloat" href="classAL_1_1maya_1_1OptionsParser.html#a5c76a8ee527e68f7ffd5f92ab043abe9"/>
+            <topic label="getInt" href="classAL_1_1maya_1_1OptionsParser.html#a3b7a2cb87b8e3f7d3458dec8ca12e21d"/>
+            <topic label="getString" href="classAL_1_1maya_1_1OptionsParser.html#a75b650edd72ab7bb1e0cc29fc8c76c68"/>
+            <topic label="parse" href="classAL_1_1maya_1_1OptionsParser.html#afcd4ec3c0034af79b66e2da0d51f28e6"/>
+            <topic label="FileTranslatorOptions" href="classAL_1_1maya_1_1OptionsParser.html#a3f622385dbedbbf8957b879779cf9d07"/>
+          </topic>
+          <topic label="Profiler" href="classAL_1_1maya_1_1Profiler.html">
+          </topic>
+          <topic label="ProfilerSectionPath" href="classAL_1_1maya_1_1ProfilerSectionPath.html">
+            <topic label="ProfilerSectionPath" href="classAL_1_1maya_1_1ProfilerSectionPath.html#a805f98bf30183cce77e50727058e1a4a"/>
+            <topic label="hash" href="classAL_1_1maya_1_1ProfilerSectionPath.html#a56344ee602b5b92b919efa01a8e547c9"/>
+            <topic label="operator==" href="classAL_1_1maya_1_1ProfilerSectionPath.html#acd3f240199405bab2732226beee1d017"/>
+            <topic label="Profiler" href="classAL_1_1maya_1_1ProfilerSectionPath.html#ad73e5645d5b7b84a00d4a5d07b8d8078"/>
+          </topic>
+          <topic label="ProfilerSectionTag" href="classAL_1_1maya_1_1ProfilerSectionTag.html">
+            <topic label="ProfilerSectionTag" href="classAL_1_1maya_1_1ProfilerSectionTag.html#a753314902016f2e357f19b90c4a0d8c4"/>
+            <topic label="hash" href="classAL_1_1maya_1_1ProfilerSectionTag.html#a7465bb096b2695380e524d27727e4711"/>
+            <topic label="operator==" href="classAL_1_1maya_1_1ProfilerSectionTag.html#a2c32a0f28b7b3b4ca3e1f1ffaf1222bc"/>
+            <topic label="Profiler" href="classAL_1_1maya_1_1ProfilerSectionTag.html#ad73e5645d5b7b84a00d4a5d07b8d8078"/>
+          </topic>
+        </topic>
+        <topic label="usdmaya">
+          <topic label="cmds">
+            <topic label="ActivatePrim" href="classAL_1_1usdmaya_1_1cmds_1_1ActivatePrim.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ActivatePrim.html#a7e7b180329fc1b26408070ada67dddf1"/>
+            </topic>
+            <topic label="ChangeVariant" href="classAL_1_1usdmaya_1_1cmds_1_1ChangeVariant.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ChangeVariant.html#af706ebac5504d314ff4cf71d15d1b90a"/>
+            </topic>
+            <topic label="InternalProxyShapeSelect" href="classAL_1_1usdmaya_1_1cmds_1_1InternalProxyShapeSelect.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1InternalProxyShapeSelect.html#a66cf2708de2e27de385b0f3805f1f6b8"/>
+            </topic>
+            <topic label="LayerCommandBase" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCommandBase.html">
+              <topic label="getSelectedNode" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCommandBase.html#aa6ebef05a06ededf91c8f880d98629bf"/>
+              <topic label="getShapeNode" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCommandBase.html#aa38da4f79356fbc32f42807c1e1e27de"/>
+              <topic label="getShapeNodeStage" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCommandBase.html#aaee4b42e9e4023edbf373f4c064958d5"/>
+              <topic label="makeDatabase" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCommandBase.html#a72887454562e102915d1be8365830ab0"/>
+            </topic>
+            <topic label="LayerCreateLayer" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCreateLayer.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCreateLayer.html#a2a5cf498aa06b779dc89c9de10eaa147"/>
+            </topic>
+            <topic label="LayerCreateSubLayer" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCreateSubLayer.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCreateSubLayer.html#aadf5bcdb442fa5863b79ffcd0f7199bd"/>
+            </topic>
+            <topic label="LayerCurrentEditTarget" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCurrentEditTarget.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCurrentEditTarget.html#aa8e154e594f7c5106a42dd42c7d6f312"/>
+            </topic>
+            <topic label="LayerExport" href="classAL_1_1usdmaya_1_1cmds_1_1LayerExport.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerExport.html#a6190f2ad5290895c988a89c19ff9cfe3"/>
+            </topic>
+            <topic label="LayerGetLayers" href="classAL_1_1usdmaya_1_1cmds_1_1LayerGetLayers.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerGetLayers.html#a4e0625ec88549b2a07d79b010f7e39f9"/>
+            </topic>
+            <topic label="LayerSave" href="classAL_1_1usdmaya_1_1cmds_1_1LayerSave.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerSave.html#a733dfdec650a56bf390d70536f64687e"/>
+            </topic>
+            <topic label="LayerSetMuted" href="classAL_1_1usdmaya_1_1cmds_1_1LayerSetMuted.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1LayerSetMuted.html#adc8e5130929c8013af5ee5213b6bd123"/>
+            </topic>
+            <topic label="ProxyShapeCommandBase" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeCommandBase.html">
+              <topic label="getShapeNode" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeCommandBase.html#afdcbfa8236925118d18e5a4c9b51289a"/>
+              <topic label="getShapeNodeStage" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeCommandBase.html#aa8e96606e8469302ccdb7688310504b1"/>
+              <topic label="getShapePath" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeCommandBase.html#a38a2909f806683499d3486443a2ba345"/>
+              <topic label="makeDatabase" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeCommandBase.html#a786ba621119ef09e1cc35f1a48b9d8f0"/>
+            </topic>
+            <topic label="ProxyShapeFindLoadable" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeFindLoadable.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeFindLoadable.html#ac4e73b408c916925dac7f1c797da5c18"/>
+            </topic>
+            <topic label="ProxyShapeImport" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImport.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImport.html#a3da9feec9b1f2d6de0ad3a86d412f5b4"/>
+            </topic>
+            <topic label="ProxyShapeImportAllTransforms" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImportAllTransforms.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImportAllTransforms.html#ad337dab3cdaa9fe1c391e0cf8b77a208"/>
+            </topic>
+            <topic label="ProxyShapeImportPrimPathAsMaya" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImportPrimPathAsMaya.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImportPrimPathAsMaya.html#a8442f774738bc119fa50a78aa74c4e14"/>
+            </topic>
+            <topic label="ProxyShapePostLoadProcess" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePostLoadProcess.html">
+              <topic label="MObjectToPrim" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePostLoadProcess.html#a5a519b3353099135129723341b90d12f"/>
+            </topic>
+            <topic label="ProxyShapePostSelect" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePostSelect.html">
+              <topic label="~ProxyShapePostSelect" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePostSelect.html#aae1c07c31f3709b1595817fd947bd1f4"/>
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePostSelect.html#a98600f9bf690adc8a9f212b8fb1394cd"/>
+            </topic>
+            <topic label="ProxyShapePrintRefCountState" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePrintRefCountState.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePrintRefCountState.html#a87faa2512e9186869883d2a4522f2999"/>
+            </topic>
+            <topic label="ProxyShapeRemoveAllTransforms" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeRemoveAllTransforms.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeRemoveAllTransforms.html#aed8531d1a09e153779c1eade67844db9"/>
+            </topic>
+            <topic label="ProxyShapeResync" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html">
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html#a1267615a226403898bf316fbc2f31a85"/>
+              <topic label="m_resyncPrim" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html#a929ae40213511de128dc9c8bbaf960fd"/>
+              <topic label="m_resyncPrimPath" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html#aa67bbf4607a8919171433bc908f9b699"/>
+              <topic label="m_runPostPrimChanged" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html#af248429f1e8efd764218c2a753a96a25"/>
+              <topic label="m_runPrePrimChanged" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html#aa3da68c236a56c02ab030c07f51514c3"/>
+              <topic label="m_shapeNode" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html#a884616213407ff8dc15ec0488ad3df77"/>
+            </topic>
+            <topic label="ProxyShapeSelect" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeSelect.html">
+              <topic label="~ProxyShapeSelect" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeSelect.html#a2f1b4f7e02588e4b40adc06d4645970b"/>
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeSelect.html#ab1a1858f9840485d49aeee7e2f406186"/>
+            </topic>
+          </topic>
+          <topic label="fileio">
+            <topic label="translators">
+              <topic label="CameraTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1CameraTranslator.html">
+                <topic label="CameraTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1CameraTranslator.html#acb5b2f82c2d7bd9414f7db7c14c6bc19"/>
+                <topic label="~CameraTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1CameraTranslator.html#a2953454e6fe53fb16b226b61fcaf09f0"/>
+                <topic label="copyAttributes" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1CameraTranslator.html#a2134483c5310c7ea4d00dbd56c682a7c"/>
+                <topic label="createNode" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1CameraTranslator.html#a98a51d360b8245c98ed9830053231c92"/>
+              </topic>
+              <topic label="DagNodeTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator.html">
+                <topic label="applyDefaultMaterialOnShape" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator.html#a63da476f55588787635b1c677c82f60d"/>
+                <topic label="copyAttributes" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator.html#a349e89c0baacb18636d5decbcdc39084"/>
+                <topic label="createNode" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator.html#ada9bfc904123cb7e5cb2b3f16f1cb3ac"/>
+              </topic>
+              <topic label="DgNodeTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DgNodeTranslator.html">
+                <topic label="attributeHandled" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DgNodeTranslator.html#af4c93ba2ebf132266b7b236e6cc3b1fe"/>
+                <topic label="copyAttributes" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DgNodeTranslator.html#a4ee005901992afbc55b1114f07733271"/>
+                <topic label="createNode" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DgNodeTranslator.html#ad9eb39e94f830b9b6a759e62b4b2658d"/>
+              </topic>
+              <topic label="MeshTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html">
+                <topic label="attributeHandled" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html#ae891fb19f3f1afcd329babeb9d64f1af"/>
+                <topic label="createNode" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html#a8cb465ce5fec815f6a1c74c34fe22c14"/>
+              </topic>
+              <topic label="NurbsCurveTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1NurbsCurveTranslator.html">
+                <topic label="createNode" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1NurbsCurveTranslator.html#a0c6de4100e4ad14db91c63637cd6631f"/>
+              </topic>
+              <topic label="TransformTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TransformTranslator.html">
+                <topic label="copyAttributes" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TransformTranslator.html#a155ea6276d8bd2685486e308556b75a0"/>
+                <topic label="createNode" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TransformTranslator.html#a02e41d4df0323fcc015d02b532fdc6c3"/>
+              </topic>
+              <topic label="TranslatorAbstract" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html">
+                <topic label="Ptr" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#ae2362ca4cfa1eadddfa2b4008131d343"/>
+                <topic label="RefPtr" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a01c3897fdf2dbb7839d0601885dd278f"/>
+                <topic label="This" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#ade600ee302b2d65907574de179392f0a"/>
+                <topic label="~TranslatorAbstract" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a0fd94467db0b712eb8f374e9cade707f"/>
+                <topic label="getTranslatedType" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a5303e16e11f71cdfb4ed42da0f8a260c"/>
+                <topic label="import" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a4d7cc337c7d15894c4191e53a38775ab"/>
+                <topic label="initialize" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a87addd157908093085f8875cda7cf76d"/>
+                <topic label="needsTransformParent" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a8eb1c35a619354479dcb3ebb3e3129f9"/>
+                <topic label="postImport" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a11ada18c09e42da28d1b93274ffc62ab"/>
+                <topic label="preTearDown" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a70fbb32eb8ed8638ab872f1d0b0ae4c6"/>
+                <topic label="supportsInactive" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a5cad8f7b1cc3f500c37e567347cf18ee"/>
+                <topic label="supportsUpdate" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a4791276fb35ce48c60dd362c2f52fa3d"/>
+                <topic label="tearDown" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#a9f886a9e776819ef7f235a75e587bf26"/>
+                <topic label="update" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html#aece51923822ab802b9c49c9d2d5e3e4e"/>
+              </topic>
+              <topic label="TranslatorBase" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html">
+                <topic label="RefPtr" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#a9aa72ebd0a568016acf395e883cb7590"/>
+                <topic label="This" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#a0e2bcd48fcbfd8f3c1ed0a68899edc71"/>
+                <topic label="~TranslatorBase" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#a13e45a6f982eda19a407f01860e97cd9"/>
+                <topic label="context" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#a42719a26a7866556f7a1839c0f923612"/>
+                <topic label="getTranslatedType" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#ae0b6500fd7ae23610e611f000295006e"/>
+                <topic label="getUsdStage" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#ac4a4a1443f70f7d9cf4c6925a259ee94"/>
+                <topic label="setContext" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#a19cdaddec4599e1e9585795c2a326ea0"/>
+                <topic label="setTranslatedType" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html#af55fd59dd381221789be2d0ea1a0c702"/>
+              </topic>
+              <topic label="TranslatorContext" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html">
+                <topic label="RefPtr" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a9ce311000e2cceaebf44f8b0d6b474fb"/>
+                <topic label="This" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ac52acef1874fe83b9d67186bccd54ac7"/>
+                <topic label="~TranslatorContext" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a4c4cac22b8fb4e09f560a4368625084d"/>
+                <topic label="deserialise" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#abe1b8bc47a6f324713b2ce326f82e27e"/>
+                <topic label="getMObject" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#adfbc45eee1a44eec1054d4a0d2c5f32f"/>
+                <topic label="getMObject" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a9d51eccda81fcb0498a388169fe0b387"/>
+                <topic label="getMObject" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a62fd3c637310cde3ca9ea73ee6dc21fc"/>
+                <topic label="getMObject" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a4cb0672bb96abfdffff30edc9d55fb6e"/>
+                <topic label="getMObjects" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ac5c24f91fe391ed04a52cb64b79749eb"/>
+                <topic label="getMObjects" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a7439acf366e3da5cdfc87b3bb0dffc4a"/>
+                <topic label="getProxyShape" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ac5056885bb6ed9f76f8eb7b720e2d612"/>
+                <topic label="getTransform" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#afc8a2f011864e0ed9db13b7ffaf7820d"/>
+                <topic label="getTransform" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a62c545fe3982957403034179d358737f"/>
+                <topic label="getTypeForPath" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ae59a466d5b0c134faf7b6a419d33f7ac"/>
+                <topic label="getUsdStage" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ad6c2cebb6d006b0425108a9fabb9a2da"/>
+                <topic label="insertItem" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a4d28a0dcd8f8471600cc4467fcf78898"/>
+                <topic label="registerItem" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a846706430bf5ead8fac24d54b41fbd84"/>
+                <topic label="removeItems" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a34051ec0bc17e72e3aff9babcbe31df6"/>
+                <topic label="removeItems" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ab679d1eae5ce9defd26e5195aaf37794"/>
+                <topic label="serialise" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ab574907c76c714f326e8aa4b785bf425"/>
+                <topic label="updatePrimTypes" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#a9b8dbcb6d9abcfd3e6c17b13062c569c"/>
+                <topic label="validatePrims" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html#ad8240a65f08e3766417e9cdfc6a74b6d"/>
+              </topic>
+              <topic label="TranslatorFactory" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorFactory.html">
+                <topic label="create" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorFactory.html#aaea0ed351c36386557eb28247e9ad8cc"/>
+              </topic>
+              <topic label="TranslatorFactoryBase" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorFactoryBase.html">
+                <topic label="create" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorFactoryBase.html#afb7eb697c3a1e7ac36aff4beb9e88342"/>
+              </topic>
+              <topic label="TranslatorManufacture" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorManufacture.html">
+                <topic label="RefPtr" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorManufacture.html#a55bf5193de9f23e0e8ce652317e04b03"/>
+                <topic label="TranslatorManufacture" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorManufacture.html#ab207fe30cc3d8b199bb1836837d39be6"/>
+                <topic label="get" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorManufacture.html#a21c279c28a03fc12906c4a69437cee97"/>
+              </topic>
+              <topic label="TranslatorTestPlugin" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestPlugin.html">
+                <topic label="Ptr" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestPlugin.html#a6346277a823f9b6b1d1063057cf9bc4c"/>
+                <topic label="RefPtr" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestPlugin.html#a560c3bbf4eb843100fbc8605ad12543f"/>
+                <topic label="This" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestPlugin.html#a933a027670a60beca471dc5f1f108e8c"/>
+                <topic label="~TranslatorTestPlugin" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestPlugin.html#a360186a8451dbd852e1aa6fb3eb296af"/>
+                <topic label="import" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestPlugin.html#a914454118927235e06e72b2432a9ddf1"/>
+                <topic label="initialize" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestPlugin.html#a5b13dfe04a16ff0b8f66fad74ace70bb"/>
+                <topic label="postImport" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestPlugin.html#ad343913475652aa7b7a965549f43e455"/>
+                <topic label="preTearDown" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestPlugin.html#a492d018f872d55ce69b881f21d1e0880"/>
+                <topic label="tearDown" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestPlugin.html#a1cbadb42e1349e5d949aca4a816212bf"/>
+              </topic>
+              <topic label="TranslatorTestType" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestType.html">
+                <topic label="TranslatorTestType" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestType.html#a1818f00fb2fd4cbc06f86de488baa11b"/>
+                <topic label="TranslatorTestType" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestType.html#a13c7fc73dd0e25cbcb317e70557c8ca9"/>
+                <topic label="~TranslatorTestType" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestType.html#ac29c3c75744fde7199bb5b349d58d153"/>
+                <topic label="UsdSchemaRegistry" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestType.html#aff8b8d83211f127c6c4cba48fb7d3334"/>
+              </topic>
+            </topic>
+            <topic label="AnimationTranslator" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html">
+              <topic label="addMesh" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html#a51e3a7b5eed2e73b3df635b9b86415bf"/>
+              <topic label="addPlug" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html#ae0bb17ec491ecf7a829ba105befbaec2"/>
+              <topic label="addPlug" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html#a2c8c050252f8a39de23b99e6b37f1ff6"/>
+              <topic label="addTransformPlug" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html#ae89fb6a97c4abda37b49370b10b9d1fb"/>
+              <topic label="exportAnimation" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html#a0eacfd4908b4164d1c09daf9cb6700bc"/>
+            </topic>
+            <topic label="Export" href="classAL_1_1usdmaya_1_1fileio_1_1Export.html">
+              <topic label="Export" href="classAL_1_1usdmaya_1_1fileio_1_1Export.html#acfbe335ee413f1de583f74bd7523ef87"/>
+              <topic label="~Export" href="classAL_1_1usdmaya_1_1fileio_1_1Export.html#a370f5f5118f32177725a048848250c63"/>
+            </topic>
+            <topic label="ExportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ExportCommand.html">
+              <topic label="ExportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ExportCommand.html#ac26d5bf1082994bb5efaa54b18d756e0"/>
+              <topic label="~ExportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ExportCommand.html#a2cb7433a77539ea5e10383fda12fafb8"/>
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1fileio_1_1ExportCommand.html#a4f703cb4130ff8bfbbaa4ebcbe40ffc6"/>
+            </topic>
+            <topic label="ExporterParams" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html">
+              <topic label="m_animation" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ad4306bdaf67062fee1fcb9cbaaad42cb"/>
+              <topic label="m_animTranslator" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ae5bea9439c917fcefbdcadb31854c464"/>
+              <topic label="m_duplicateInstances" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a0e88b1a14b66c9c36e8d44f5ef2c9954"/>
+              <topic label="m_dynamicAttributes" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a0c37beff7c9287d2adbd4c598eb757ca"/>
+              <topic label="m_fileName" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a9c4f9ad5550391a910db2876f7346467"/>
+              <topic label="m_filterSample" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a623bea4748d1428f8fdfda9afde00b87"/>
+              <topic label="m_maxFrame" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a3d2bdd7024ca8b808ce061592aa172f9"/>
+              <topic label="m_mergeTransforms" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ad2426b6290f8edeb36f455b3504665e0"/>
+              <topic label="m_meshes" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a5d672b37bd617caf602cafb7a068c5bc"/>
+              <topic label="m_minFrame" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a8f06dff1c1e451a0744c699e1146da6d"/>
+              <topic label="m_nodes" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a5596ddfae63b67184b7e3d8c8923872d"/>
+              <topic label="m_nurbsCurves" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ac8e6d8c2d41f78345fdf875dd11e1c4a"/>
+              <topic label="m_selected" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#a9eed80821f6182b19f26123680cbb6bc"/>
+              <topic label="m_useAnimalSchema" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ae3b2ffde5eec3b4fea509024291de840"/>
+              <topic label="m_useTimelineRange" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html#ad6d6b361fcf46a7157a9dad4e615489d"/>
+            </topic>
+            <topic label="Import" href="classAL_1_1usdmaya_1_1fileio_1_1Import.html">
+              <topic label="Import" href="classAL_1_1usdmaya_1_1fileio_1_1Import.html#a86e455da6980762c64e58dd4cd729736"/>
+              <topic label="~Import" href="classAL_1_1usdmaya_1_1fileio_1_1Import.html#af38f56223495d7cf2c4ae496f4d4f5cc"/>
+              <topic label="operator bool" href="classAL_1_1usdmaya_1_1fileio_1_1Import.html#a33e76d09841a88c3eeb676d8973fe6df"/>
+            </topic>
+            <topic label="ImportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ImportCommand.html">
+              <topic label="ImportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ImportCommand.html#a3b3c62d2ac0f4257e5b28723045069aa"/>
+              <topic label="~ImportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ImportCommand.html#a6742ab3b568c3b7e2b672be01b65fc53"/>
+              <topic label="AL_MAYA_DECLARE_COMMAND" href="classAL_1_1usdmaya_1_1fileio_1_1ImportCommand.html#acc644c2816039cc035abca683f34b698"/>
+            </topic>
+            <topic label="ImporterParams" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html">
+              <topic label="m_animations" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#aacc707a53e37524378afd21cbb366c70"/>
+              <topic label="m_dynamicAttributes" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#ade28b05e703d3e4e72b5e5d8c5e0803c"/>
+              <topic label="m_fileName" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#a31206b59d65fe131fd2c559497c21246"/>
+              <topic label="m_meshes" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#a6909983a6a3defb94689d72d5116c9fc"/>
+              <topic label="m_nurbsCurves" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#a241c1a6f5335a7e158d5cd0a140884db"/>
+              <topic label="m_parentPath" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#af1243ded9f02ab310fa5a5db36c3e063"/>
+              <topic label="m_rootLayer" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#aab6b143bb1a93bf676728fe9a10cef8f"/>
+              <topic label="m_sessionLayer" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#a9acf9d4881e17340db3bfe8564f56b57"/>
+              <topic label="m_stageUnloaded" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html#a1b481bb43d4879871865267a546cc448"/>
+            </topic>
+            <topic label="NodeFactory" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html">
+              <topic label="NodeFactory" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#a07e4469094e108ae04df26e01fa67468"/>
+              <topic label="~NodeFactory" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#a988e711198575ea20b409c7599b73993"/>
+              <topic label="createNode" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#a92c9198a197bfc18f80cb96aac7c22c1"/>
+              <topic label="setImportParams" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#aa4aa1dd2c82cb10e3deec768e8b5c3db"/>
+            </topic>
+            <topic label="SchemaPrimsUtils" href="classAL_1_1usdmaya_1_1fileio_1_1SchemaPrimsUtils.html">
+              <topic label="SchemaPrimsUtils" href="classAL_1_1usdmaya_1_1fileio_1_1SchemaPrimsUtils.html#ad34ca5179523817028f78562a90fe3f3"/>
+              <topic label="isSchemaPrim" href="classAL_1_1usdmaya_1_1fileio_1_1SchemaPrimsUtils.html#a2ae0c6002daf7098c5f93cea978cc982"/>
+              <topic label="needsTransformParent" href="classAL_1_1usdmaya_1_1fileio_1_1SchemaPrimsUtils.html#a3d049244a5e200fd9057c4e32ecb246a"/>
+            </topic>
+            <topic label="TransformIterator" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html">
+              <topic label="TransformIterator" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a181ecea6b7d22c73138ba747aa5aaf66"/>
+              <topic label="TransformIterator" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a61cea2bd89d0a60ccd37afbbaa51b03f"/>
+              <topic label="append" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a5685cdb4b850238423951f63bae4834d"/>
+              <topic label="currentPath" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a03ad1045bc2bdaf1915c70e898d7181d"/>
+              <topic label="depth" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#ad0b2e872473fe52f37e2ccbaa1e0a19f"/>
+              <topic label="done" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a755d2826aa40fa21b89ea7c4ac2fd395"/>
+              <topic label="next" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#af5fbf716a0700e340ddb64c63c608157"/>
+              <topic label="parent" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a611562283f4e9b88894b8332ca876fea"/>
+              <topic label="prim" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#a49410382866f3ba3ed8f4193c00d1dee"/>
+              <topic label="prune" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html#ab0e11b681e38415d19b1da6f69eadaf6"/>
+            </topic>
+          </topic>
+          <topic label="nodes">
+            <topic label="HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html">
+              <topic label="HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a00ab31db2ba54e3727ea2ed517f3548d"/>
+              <topic label="~HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#ab6c20363ce45b52e8423cae563e5a984"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#afcd85072b1a20ecd808321ac016842ad"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a6f061c5eb9603b06cba88e8aee9463ea"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#aa61c99a082819424e8a2ae506e8e41eb"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a9a334b3d9e0b5c61feab868b06660a0c"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a4c485a6f12027a5dd7fbe982ae2b6dc5"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#a74bb42207f0a0da0c7d187c2ae215996"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#ae02e5f33f48a0a7f1b529b51ef4a8264"/>
+              <topic label="AL_MAYA_DECLARE_NODE" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html#ae4f5ecfd9de3bb8178a3542a0d5a0992"/>
+            </topic>
+            <topic label="Layer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html">
+              <topic label="Layer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ae31a85443d6a6a0cb960052b13dbf12e"/>
+              <topic label="addChildLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a08d36015450ac6d13ae2324133683ce0"/>
+              <topic label="addSubLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#aab8c4f822ebf41a4edf4cc6c6d7ed6e9"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a2ab9e04113df512e13a18863ecc7c604"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ac1f1108ff413df96bf1a23ee3c66e6d0"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a48b03982f2804a15d6caed4b2875b0b2"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a400a2a7fe04b1762359d848d8a56a979"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a0942d1c1bcd5502e915c0a42a3019351"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a289939824b306dab30100570af5d66af"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a177b78aecfb707acd95790b1d20c79f2"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a1fa886d0bfea64592a62ea23c8a38e2d"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a2d7c7c4bb9f36e0b9569e4ffc590c93f"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#aefc9832bf0b07e25fdc30784e82ea5fd"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#aa29539d06576cabc215e1a5fff00d326"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a6d3bad919a8ee443e7a8b70e042ce1ac"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a132f52be016eb2a8825ccd31c869f5cb"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a621cec07794780c55d2b902a785c49fc"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ac5bee8822f6dc172ac7ac3b934fbfc62"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#abec3024d1e954d555c6525d33ecdc775"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a9228613679d6eb64fffcf0a3b62ab148"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a7e4ed8b1c47cfee0943636387e222742"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#aaf4cc2d9f3e4cdaed098eb6c75f5210a"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a99c57cad84abe1b62beae46fc7718e1f"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a3d5f26c461c0ab0de31bc1743e846a46"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ae5a6b2e410ca2f922654900b9e540ab5"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ae44b37265fd99733cda1246e23d5b895"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a63f82dcfaf91e5cd734b7b0499819bc3"/>
+              <topic label="AL_MAYA_DECLARE_NODE" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a96c166deeb3094658b65df4e70900cd2"/>
+              <topic label="buildSubLayers" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a01b49a5d5800f5de661a0ab1b571c34e"/>
+              <topic label="findChildLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a6cfcaf9b4cb593fcac92e8482deb5974"/>
+              <topic label="findLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a87be7f6d692870184266c0af5780d2d0"/>
+              <topic label="findSubLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ad21766023a3201d8ef05f1850c069cd9"/>
+              <topic label="getChildLayers" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a83c11c37768a22b49f31eb59cf1796f4"/>
+              <topic label="getHandle" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a3a318f580cf0016a7dd0e293f4f26c05"/>
+              <topic label="getParentLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a122a949fb8c66f3cdbd0e96ceb00b7c8"/>
+              <topic label="getProxyShape" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a3149b1450f40762053fdb52b8aaa5686"/>
+              <topic label="getSubLayers" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a883ca86e47320c1c0394b352b88481bf"/>
+              <topic label="hasBeenTheEditTarget" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a37661be2f6f2f7556e2b528b38da626a"/>
+              <topic label="init" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#adef492d0a8353d4c7ab4f8587bfe9913"/>
+              <topic label="parentLayerPlug" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a6d57eae96e020f90f61717cc3fd8e166"/>
+              <topic label="populateSerialisationAttributes" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a96a46683a1d382c6d864b9dc7ab245ed"/>
+              <topic label="removeChildLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a9bbbcddb111685aad34112fc5372161d"/>
+              <topic label="removeSubLayer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a188952c2781308447ab924621ba9c7a0"/>
+              <topic label="setHasBeenTheEditTarget" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#ae21b4142efb68040f2db86dd3430d1ab"/>
+              <topic label="setLayerAndClearAttribute" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#abb3716f8d728c4a5259d2cf01537de08"/>
+              <topic label="testing_clearHandle" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html#a8c52742e1160a0703b83677bd06fd731"/>
+            </topic>
+            <topic label="LayerVisitor" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html">
+              <topic label="LayerVisitor" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#a7c96eb9e07e8b5b6bc50bd74956e2a84"/>
+              <topic label="~LayerVisitor" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#aa0a42d7900b56374ffd3fd199efc06d3"/>
+              <topic label="depth" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#a679dc8936b59095a5e8da95a1c36239c"/>
+              <topic label="isSubLayer" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#a5799477bd47bd1c8f7d05492cd865459"/>
+              <topic label="onVisit" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#ae2efdeb023aa0e407702a6edbf0535d1"/>
+              <topic label="parentLayer" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#ad8fdea5898d12c6a514721e8800ba9c0"/>
+              <topic label="thisLayer" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#a5c7a8ce9957fbd90d69e3fd41ac3041d"/>
+              <topic label="visitAll" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html#aba3b1787f6ee6879db45ebf002f71ba5"/>
+            </topic>
+            <topic label="ProxyDrawOverride" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html">
+              <topic label="ProxyDrawOverride" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html#ae5ea69fb7c7a4a2e5f9c54fb4e16fb48"/>
+              <topic label="~ProxyDrawOverride" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html#af7cfd376e0eff30bc79ac48b96b77c79"/>
+              <topic label="boundingBox" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html#a8cefb034f415010dd5f419be9493af16"/>
+              <topic label="isBounded" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html#a23c7732fe7a42ee01cfb5266d9dc1ef2"/>
+              <topic label="prepareForDraw" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html#a9d1b4941c90f3bc831546ec8686a71b5"/>
+              <topic label="supportedDrawAPIs" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html#a7080f614d613e8417ec692e76cc77e09"/>
+            </topic>
+            <topic label="ProxyShape" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html">
+              <topic label="MObjectToPrim" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ae715db120e39afe0343aebe428ee9433"/>
+              <topic label="TransformReason" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a4373215cb1d17ca4a386d9cf2fa221a9">
+                <topic label="kSelection" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a4373215cb1d17ca4a386d9cf2fa221a9abb58463fe579f4d42c82014627d5bc77"/>
+                <topic label="kRequested" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a4373215cb1d17ca4a386d9cf2fa221a9a674a77b5124e7d35e454e8a21ce9b906"/>
+                <topic label="kRequired" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a4373215cb1d17ca4a386d9cf2fa221a9abf16d1bb0a9726a48adf15e93521a68f"/>
+              </topic>
+              <topic label="ProxyShape" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#afc0963037d21cde3715779a82be38de5"/>
+              <topic label="~ProxyShape" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a09c42405ee74cbac7502a9fa04d564dd"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a8cd06382a7d5ba9b81a67092cbdc0005"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a306269ff47cf3a04cbf77d23790bffc4"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a03c74a25ed24e6e5d97c79e2836e9ded"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a4104440191ac7eb8540edccefb19fc9a"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a9a2506f35d660d9da02f675b3fd32847"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a2190065c92df3743a6e4617b3991c439"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a96fa4b7042ab900fe870abbd25c1f785"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ad622cdd34a2f26d69cbc9128f09b3bf9"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a20427ce4be38763ff501ff339a3e7019"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aa2991e63c3e74ecb319d03c915c64165"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aeba6ac53c765e94cf36c932fd566c655"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aa6c46c383ad96ec14b1e472fe85314b7"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a8baf22dcdcdb8710aed26ca836d9a5eb"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a3ac4378b540d9a49e456788221d30639"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ac91e793a32dcb3ce255e9380def33634"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aeea2093a76d765575f6935b9f3714816"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ac68fbcd573c6520d08f30af0491d96b1"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aed0737571ee0bab1ce5615fe4dafaacb"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a84b691b194bbc50c80f72fd68f7709c2"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a04fe18fc1b7ff90f4d0b3296c0d6f6a6"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a74c190c98aaf02e2c2c223c98856fe6a"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a070c0df113eba992ea624b31e69d8601"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a67a36017df1e67e71fc2a9e7cc5f29b3"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a150c6f4aded113b21161377a5347f6a4"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a3a4a64ee0e28891659d9cbe125faf8a7"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ad33be147b55a99dacb636a02c862d747"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a001ace1d9b298a31be415d4ebf142dfc"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a62cfdcef0aa22228ac649c7623cca41e"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a89a098872742a59fe4fa4539e9b80215"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a1162bf91f9d42ad872c7041489cdf62e"/>
+              <topic label="AL_MAYA_DECLARE_NODE" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#af7b25d925b9d9b7c588c01ac2d090d07"/>
+              <topic label="boundingBox" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a8fe56336a6bb8c8a40c044035c73ada5"/>
+              <topic label="constructGLImagingEngine" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a0df98e91f9603de95e3dc35cc014b236"/>
+              <topic label="deserialiseSchemaPrims" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aa93ebd6a079ec507d430c8d6d6fc68a5"/>
+              <topic label="deserialiseTransformRefs" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#afd707455deb5881c52990af473ed6659"/>
+              <topic label="deserialiseTranslatorContext" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a4effb8b4c694b04cf36c99dfa8e39d3b"/>
+              <topic label="destroyTransformReferences" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#af2c12296f8525ed9edd1bf6950922d2d"/>
+              <topic label="doSelect" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a0449129acd531ab5a3d0821b6a74a27c"/>
+              <topic label="engine" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#afc052f213d47b1deaf1e13b300ffc7d9"/>
+              <topic label="filterUpdatablePrims" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a5e6eca0a7b4eab9a567db6b29de86ef5"/>
+              <topic label="findExcludedGeometry" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a3c2b83700017c82a7e1ff2f455a26931"/>
+              <topic label="findLayer" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a18d8ca915b6878e5ad38988e7fe9e94b"/>
+              <topic label="findLayerMayaName" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ab2b4400ddb08d0dc6c3e7c5835f9fede"/>
+              <topic label="findRequiredPath" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a9d0c61439cc2bc72e7f1fe5f52c54adc"/>
+              <topic label="getLayer" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a22dfabe791dc75b1fd4723e5d2c960d8"/>
+              <topic label="getRenderAttris" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a40008dddd3a6a3563577cf030e4d72e1"/>
+              <topic label="getRootPrim" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a211f3625cfd4e43d9b18e32a541db982"/>
+              <topic label="getUsdStage" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a417a6d750abbcdb39e92bdda71d3dc68"/>
+              <topic label="huntForNativeNodesUnderPrim" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ab91f2c63fdb8fd4482625642d131b31b"/>
+              <topic label="isRequiredPath" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a7f9ca28c091ed8f6fa4fad910f55e4bf"/>
+              <topic label="makeUsdTransformChain" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a230d9f9cc769e3f74ada0b69064b49ed"/>
+              <topic label="makeUsdTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aba8023459a8e19669094647b26f82c9b"/>
+              <topic label="onPrePrimChanged" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a289a22574cdd36d316c51c7754373812"/>
+              <topic label="onPrimResync" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a818953aac7fa11e22afc90084db0d23a"/>
+              <topic label="primChangedAtPath" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#aa0c729fc518ea2470340db183eb339c1"/>
+              <topic label="printRefCounts" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ab9d693b2b3e162482bae95acca3f5fcf"/>
+              <topic label="removeUsdTransformChain" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a6f509afd3a7d5e93fd4eb55720aa3bba"/>
+              <topic label="removeUsdTransformChain" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a390c6bab73f71d911ea04547ec75a182"/>
+              <topic label="removeUsdTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#af93e27c060bc1c88ab1aba5659e8ecf9"/>
+              <topic label="schemaDB" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a9c0d14a1239c4b6ad17a1f6ba5886df0"/>
+              <topic label="selectedPaths" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a218cb9a257998865ecb16c6e09bcf347"/>
+              <topic label="selectionList" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#acdfd2e56e27465a712af6a0197fb7dd0"/>
+              <topic label="serialiseSchemaPrims" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a12726e9e3d2f3de4a7f884b6b80a0c1c"/>
+              <topic label="serialiseTransformRefs" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a6c69a1635b390b775ddd02264c4889d3"/>
+              <topic label="serialiseTranslatorContext" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ad2b35ba33b7d59738a8137f151780b2a"/>
+              <topic label="setChangedSelectionState" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ad1eaaddf1075e59cf88bcf54d7b2e0fd"/>
+              <topic label="setHaveObjectsChangedAtPath" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a3554c09623b318124c2758a23a4d32bd"/>
+              <topic label="unloadMayaReferences" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a85bed0f9897764735a87c7f1be1b787d"/>
+              <topic label="ProxyShapeUI" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#a17518b980d5a577b6c71cb2e03b23792"/>
+              <topic label="SelectionUndoHelper" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ac3453f7d74a93f163b79cab86ba710f0"/>
+            </topic>
+            <topic label="ProxyShapeUI" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html">
+              <topic label="ProxyShapeUI" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html#a4e48a5415001400cc0d1d9cb7d40295a"/>
+              <topic label="~ProxyShapeUI" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html#a3538bf02b3f209d4f76bde53f31b8910"/>
+              <topic label="draw" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html#a908cf6a6d0b373f02223407393f3e3a4"/>
+              <topic label="getDrawRequests" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html#ad11a4df8056f5fa78352fbcc6d46c99e"/>
+              <topic label="select" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html#aacafec2a648ad956a0bb1cb73ed2a713"/>
+            </topic>
+            <topic label="SchemaNodeRef" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRef.html">
+              <topic label="SchemaNodeRef" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRef.html#a4ab85ac65887484754e3572ae48f1957"/>
+              <topic label="~SchemaNodeRef" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRef.html#a6862f333cdc853df08b84e1432d93f06"/>
+              <topic label="mayaObject" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRef.html#ae43593f91610cb86844cf2c64ef8f7bb"/>
+              <topic label="primPath" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRef.html#ae766b0d3c7d40ccd5364162c6a05c53a"/>
+            </topic>
+            <topic label="SchemaNodeRefDB" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html">
+              <topic label="value_compare" href="structAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB_1_1value__compare.html">
+                <topic label="operator()" href="structAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB_1_1value__compare.html#a844b180571d25f0339110e24a14ac75b"/>
+                <topic label="operator()" href="structAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB_1_1value__compare.html#ab6348d86a1ca0cd3f8e29a90bc0a6d2f"/>
+                <topic label="operator()" href="structAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB_1_1value__compare.html#a2268de7f3294340216f72b728b769756"/>
+              </topic>
+              <topic label="SchemaNodeRefDB" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a3a43f7b05f8241098378f64af0247033"/>
+              <topic label="~SchemaNodeRefDB" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a9de3957a7ed51d032b1084642fefec60"/>
+              <topic label="addEntry" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a62cfa828dedeae7486619ded8794dff4"/>
+              <topic label="context" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#aa904d11f522e21982bc07be6a13082ec"/>
+              <topic label="deserialize" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a85b46c1f63e706afc950e1d22f827b83"/>
+              <topic label="hasEntry" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#ac7f6ac256c2ac588149285f843672b23"/>
+              <topic label="lock" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a165923128330e0c56f6e83aecff86fc7"/>
+              <topic label="outputPrims" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#af751402430e37e0e06f75165014e2c75"/>
+              <topic label="preRemoveEntry" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#aacc0812d6e3af8ad712be2de1b66fc54"/>
+              <topic label="proxy" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a51d07d5f595d7c5641e374524f1ac594"/>
+              <topic label="removeEntries" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a421545b37784a672da9d585b342599b0"/>
+              <topic label="serialize" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a92e8876ccca328bc7df7696adc593082"/>
+              <topic label="translatorManufacture" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a920927d2b0f53c4ac6d6638cc91233b5"/>
+              <topic label="unlock" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html#a1f62ab98259ca408edcc8665867cf33c"/>
+            </topic>
+            <topic label="SelectionList" href="classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html">
+              <topic label="SelectionList" href="classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html#a909c8081b6b31c299f18e1fc403872ef"/>
+              <topic label="SelectionList" href="classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html#a456e0f3fad1538bcb4529dd560c8688f"/>
+              <topic label="~SelectionList" href="classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html#a8948aa283f7c2e64031285c0b98ed2ff"/>
+              <topic label="add" href="classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html#a232c2518ae7ff3c0306b75d512f63caf"/>
+              <topic label="clear" href="classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html#a21e31032e111371a4902d791710e2d4b"/>
+              <topic label="isSelected" href="classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html#aa87bdce4f3f32c66efcfaab69b6a0d4b"/>
+              <topic label="paths" href="classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html#a7a66c7c065986da7e4a24b95d9890bc2"/>
+              <topic label="remove" href="classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html#a9e4433e38340d32ec18487826ad0a868"/>
+              <topic label="size" href="classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html#aadc78e6b3b080f0610ad5de7effc95ef"/>
+              <topic label="toggle" href="classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html#aa120a87959a9e88638419bf37299d59c"/>
+            </topic>
+            <topic label="SelectionUndoHelper" href="structAL_1_1usdmaya_1_1nodes_1_1SelectionUndoHelper.html">
+              <topic label="SelectionUndoHelper" href="structAL_1_1usdmaya_1_1nodes_1_1SelectionUndoHelper.html#a0b0e5bfd2f641bd8baa946670e173a6c"/>
+              <topic label="doIt" href="structAL_1_1usdmaya_1_1nodes_1_1SelectionUndoHelper.html#a7816c7125483f3a3101076f466e538a5"/>
+              <topic label="undoIt" href="structAL_1_1usdmaya_1_1nodes_1_1SelectionUndoHelper.html#aa1cddb8b16001b00564edfdb05c05f1f"/>
+              <topic label="ProxyShape" href="structAL_1_1usdmaya_1_1nodes_1_1SelectionUndoHelper.html#a10cacc6572e144720918d85147e9d36f"/>
+            </topic>
+            <topic label="Transform" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html">
+              <topic label="~Transform" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a7661ca4486f9b4c1bb55303f5e29f089"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a5a7d22bc3cd6458e2f6d683414351515"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a9d27e7867bad07ce6b21bd41306d89ce"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a6c26b41bb30cdcf4c165f3dc09692c15"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#aae6b8498f3bfe99bb12d5b3011492f24"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a0f297bf182490598b9c8d9535a204c25"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#ae8d2918576df24b27b9cf87d257de275"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#aabe7cb75280d02410be4435b34980391"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a5c954be32cb598a2025f2cb1a5a1e269"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a1bbcc4fffb79cd1ddc73af7d093123d7"/>
+              <topic label="AL_DECL_ATTRIBUTE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a35603b57de1feb0bd6155819c3e67f66"/>
+              <topic label="AL_MAYA_DECLARE_NODE" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#ad698059a1d41800e8fd2f9f08e171230"/>
+              <topic label="getUsdPrim" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#ae041684fb4de2115c12e71fe1cc610f7"/>
+              <topic label="schedulingType" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#aa74af0b2205e7f9bf07d96b3ccd0d50d"/>
+              <topic label="transform" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html#a57abea2eab0844c2f13c603ffbdec90b"/>
+            </topic>
+            <topic label="TransformationMatrix" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html">
+              <topic label="TransformationMatrix" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a1275f09398ca8bb2f53489aaf55b455e"/>
+              <topic label="TransformationMatrix" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a8e94d2f8a54c04fd25e61c3723d277c7"/>
+              <topic label="enablePushToPrim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a21354f9e07a345f5c21f2bb05c0ec88b"/>
+              <topic label="enableReadAnimatedValues" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a3cf73cf57dfb8df45349eb6abf6d1279"/>
+              <topic label="getTimeCode" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#adb53d1cfe83c77404e8796549b0cbbac"/>
+              <topic label="hasAnimatedMatrix" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a54172b674883ea1838076de53ce24fba"/>
+              <topic label="hasAnimatedRotation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a0ebddeaf50346b874de7035708e9d599"/>
+              <topic label="hasAnimatedScale" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a81d622ff499fda4f84c8bb96913eef78"/>
+              <topic label="hasAnimatedShear" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a752305032671315b1c00f5df20405e53"/>
+              <topic label="hasAnimatedTranslation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a38bd8da10b052549a7a59427a1fd6c45"/>
+              <topic label="hasAnimation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ae3e6c15fb13ac31959acee9847bf3adf"/>
+              <topic label="initialiseToPrim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a05a715d47b7b2a446aaf9ccc2bb18337"/>
+              <topic label="prim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#aa8c018c038ab46f1685777b65364dcda"/>
+              <topic label="primHasPivot" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a774f7ca79dcbc0c5b2ffd138f8d8d331"/>
+              <topic label="primHasRotateAxes" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a588905db6e71b79f39f32d1f32d927a8"/>
+              <topic label="primHasRotatePivot" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a99529232fc7764a289065fa3f0de4284"/>
+              <topic label="primHasRotatePivotTranslate" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#afcfb06e5d8ba8d90236c98d529b4ccdb"/>
+              <topic label="primHasRotation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#aba200f3337f724f135ce1709b1662cc7"/>
+              <topic label="primHasScale" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a64540212911bb911006cd69f8d4f47c1"/>
+              <topic label="primHasScalePivot" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a58c43256ceffd175446212eb7c5ed695"/>
+              <topic label="primHasScalePivotTranslate" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a2848f5ecaae5bcc78795482cc4799ca7"/>
+              <topic label="primHasShear" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ad0582587014ca8a296f029619262c188"/>
+              <topic label="primHasTransform" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a0dd591e72421aac81d7bc93eac8e3660"/>
+              <topic label="primHasTranslation" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ae38af56896d2d598694a231c943744ab"/>
+              <topic label="pushPrimToMatrix" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#af408204844c68a6317db3b6c82064622"/>
+              <topic label="pushToPrim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a990311b9c1da5e2fd2bdbcea541a2d88"/>
+              <topic label="pushToPrimEnabled" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ad4a6f175425f2cc98ed34a45a11061ae"/>
+              <topic label="readAnimatedValues" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#ac0e08b7e6b395643d764b92b2c7df730"/>
+              <topic label="setLocalTranslationOffset" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a1cfb5683ae2c44369a5892c95a4bbd0b"/>
+              <topic label="setPrim" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a4a1e0af5ab23692830c720112968a6ef"/>
+              <topic label="updateToTime" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html#a71fb1f5fa51c9792884418848022eea8"/>
+            </topic>
+          </topic>
+          <topic label="DrivenTransforms" href="structAL_1_1usdmaya_1_1DrivenTransforms.html">
+            <topic label="initTransform" href="structAL_1_1usdmaya_1_1DrivenTransforms.html#ac50c4a50a3b2856d51e19c74cb52605d"/>
+            <topic label="transformCount" href="structAL_1_1usdmaya_1_1DrivenTransforms.html#a55fb82a92473570c5d7a69a6b4cfb6af"/>
+            <topic label="m_dirtyMatrices" href="structAL_1_1usdmaya_1_1DrivenTransforms.html#aeebe91314032fdb42f6a1d226c163bcb"/>
+            <topic label="m_dirtyVisibilities" href="structAL_1_1usdmaya_1_1DrivenTransforms.html#a2243a0e089fd5c3b54abd1c042f0a3df"/>
+            <topic label="m_drivenMatrix" href="structAL_1_1usdmaya_1_1DrivenTransforms.html#a90930cb92b19fcbd1de68f2255b45323"/>
+            <topic label="m_drivenPrimPaths" href="structAL_1_1usdmaya_1_1DrivenTransforms.html#a09e6023ad974578dac5206e51331bf52"/>
+            <topic label="m_drivenVisibility" href="structAL_1_1usdmaya_1_1DrivenTransforms.html#ac2192aeb8fec9df15d144709bcd6b2b0"/>
+          </topic>
+          <topic label="DrivenTransformsData" href="classAL_1_1usdmaya_1_1DrivenTransformsData.html">
+            <topic label="DrivenTransformsData" href="classAL_1_1usdmaya_1_1DrivenTransformsData.html#a55cc5ced4161b327ab4a9fdcd8e17b05"/>
+            <topic label="~DrivenTransformsData" href="classAL_1_1usdmaya_1_1DrivenTransformsData.html#aa865e613e4d24616d78fbda3fbebb222"/>
+            <topic label="m_drivenTransforms" href="classAL_1_1usdmaya_1_1DrivenTransformsData.html#aa025665a3de97de5615e7d7f3de31766"/>
+          </topic>
+          <topic label="Global" href="classAL_1_1usdmaya_1_1Global.html">
+          </topic>
+          <topic label="guid" href="structAL_1_1usdmaya_1_1guid.html">
+            <topic label="uuid" href="structAL_1_1usdmaya_1_1guid.html#a30ef7590e6e72221f4a1a6f6b1cb0057"/>
+          </topic>
+          <topic label="guid_compare" href="structAL_1_1usdmaya_1_1guid__compare.html">
+            <topic label="operator()" href="structAL_1_1usdmaya_1_1guid__compare.html#abcbaafe1b4092facd51015caacdff670"/>
+          </topic>
+          <topic label="MObjectMap" href="structAL_1_1usdmaya_1_1MObjectMap.html">
+            <topic label="contains" href="structAL_1_1usdmaya_1_1MObjectMap.html#ab1508329f5e032998c3c8cdd6415cace"/>
+            <topic label="insert" href="structAL_1_1usdmaya_1_1MObjectMap.html#aed10c59e437524fdc39d7a8283624350"/>
+          </topic>
+          <topic label="StageCache" href="classAL_1_1usdmaya_1_1StageCache.html">
+          </topic>
+          <topic label="StageData" href="classAL_1_1usdmaya_1_1StageData.html">
+            <topic label="StageData" href="classAL_1_1usdmaya_1_1StageData.html#a04130488583cba5b5c42b24a27412d4c"/>
+            <topic label="~StageData" href="classAL_1_1usdmaya_1_1StageData.html#a8ef5febd761b20d625d9cb5ef0f66370"/>
+            <topic label="copy" href="classAL_1_1usdmaya_1_1StageData.html#a868c3344c03ca742437fb7a2d75c8b14"/>
+            <topic label="primPath" href="classAL_1_1usdmaya_1_1StageData.html#af8215cdbf77c70329982f13421d9479e"/>
+            <topic label="stage" href="classAL_1_1usdmaya_1_1StageData.html#aa736bf6ddb75fb77906a17c29ff5f179"/>
+          </topic>
+        </topic>
+      </topic>
+      <topic label="std">
+        <topic label="hash&lt; AL::maya::ProfilerSectionPath &gt;" href="structstd_1_1hash_3_01AL_1_1maya_1_1ProfilerSectionPath_01_4.html">
+          <topic label="operator()" href="structstd_1_1hash_3_01AL_1_1maya_1_1ProfilerSectionPath_01_4.html#aa9aaf4701d6c8b93e2a6f34db5715ccb"/>
+        </topic>
+        <topic label="hash&lt; AL::maya::ProfilerSectionTag &gt;" href="structstd_1_1hash_3_01AL_1_1maya_1_1ProfilerSectionTag_01_4.html">
+          <topic label="operator()" href="structstd_1_1hash_3_01AL_1_1maya_1_1ProfilerSectionTag_01_4.html#a53d08657675022119219ff761513ba7d"/>
+        </topic>
+      </topic>
+    </topic>
+    <topic label="Class Index" href="classes.html"/>
+    <topic label="Class Hierarchy" href="hierarchy.html">
+      <topic label="AL::usdmaya::fileio::AnimationTranslator" href="structAL_1_1usdmaya_1_1fileio_1_1AnimationTranslator.html"/>
+      <topic label="AL::maya::CommandGuiHelper" href="classAL_1_1maya_1_1CommandGuiHelper.html"/>
+      <topic label="AL::maya::DgNodeHelper" href="structAL_1_1maya_1_1DgNodeHelper.html">
+        <topic label="AL::usdmaya::fileio::translators::DgNodeTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DgNodeTranslator.html">
+          <topic label="AL::usdmaya::fileio::translators::DagNodeTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1DagNodeTranslator.html">
+            <topic label="AL::usdmaya::fileio::translators::CameraTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1CameraTranslator.html"/>
+            <topic label="AL::usdmaya::fileio::translators::MeshTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1MeshTranslator.html"/>
+            <topic label="AL::usdmaya::fileio::translators::NurbsCurveTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1NurbsCurveTranslator.html"/>
+            <topic label="AL::usdmaya::fileio::translators::TransformTranslator" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TransformTranslator.html"/>
+          </topic>
+        </topic>
+      </topic>
+      <topic label="AL::usdmaya::DrivenTransforms" href="structAL_1_1usdmaya_1_1DrivenTransforms.html"/>
+      <topic label="AL::usdmaya::fileio::Export" href="classAL_1_1usdmaya_1_1fileio_1_1Export.html"/>
+      <topic label="AL::usdmaya::fileio::ExporterParams" href="structAL_1_1usdmaya_1_1fileio_1_1ExporterParams.html"/>
+      <topic label="FactoryBase">
+        <topic label="AL::usdmaya::fileio::translators::TranslatorFactoryBase" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorFactoryBase.html">
+          <topic label="AL::usdmaya::fileio::translators::TranslatorFactory&lt; T &gt;" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorFactory.html"/>
+        </topic>
+      </topic>
+      <topic label="AL::maya::FileTranslatorOptions" href="classAL_1_1maya_1_1FileTranslatorOptions.html"/>
+      <topic label="AL::usdmaya::Global" href="classAL_1_1usdmaya_1_1Global.html"/>
+      <topic label="AL::usdmaya::guid" href="structAL_1_1usdmaya_1_1guid.html"/>
+      <topic label="AL::usdmaya::guid_compare" href="structAL_1_1usdmaya_1_1guid__compare.html"/>
+      <topic label="std::hash&lt; AL::maya::ProfilerSectionPath &gt;" href="structstd_1_1hash_3_01AL_1_1maya_1_1ProfilerSectionPath_01_4.html"/>
+      <topic label="std::hash&lt; AL::maya::ProfilerSectionTag &gt;" href="structstd_1_1hash_3_01AL_1_1maya_1_1ProfilerSectionTag_01_4.html"/>
+      <topic label="AL::usdmaya::fileio::Import" href="classAL_1_1usdmaya_1_1fileio_1_1Import.html"/>
+      <topic label="AL::usdmaya::fileio::ImporterParams" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html"/>
+      <topic label="AL::usdmaya::nodes::LayerVisitor" href="classAL_1_1usdmaya_1_1nodes_1_1LayerVisitor.html"/>
+      <topic label="AL::maya::MenuBuilder::Menu" href="structAL_1_1maya_1_1MenuBuilder_1_1Menu.html"/>
+      <topic label="AL::maya::MenuBuilder" href="classAL_1_1maya_1_1MenuBuilder.html"/>
+      <topic label="AL::maya::MenuBuilder::MenuItem" href="structAL_1_1maya_1_1MenuBuilder_1_1MenuItem.html"/>
+      <topic label="AL::usdmaya::MObjectMap" href="structAL_1_1usdmaya_1_1MObjectMap.html"/>
+      <topic label="MPxCommand">
+        <topic label="AL::maya::CommandGuiListGen" href="classAL_1_1maya_1_1CommandGuiListGen.html"/>
+        <topic label="AL::usdmaya::cmds::LayerCommandBase" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCommandBase.html">
+          <topic label="AL::usdmaya::cmds::LayerCreateLayer" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCreateLayer.html"/>
+          <topic label="AL::usdmaya::cmds::LayerCreateSubLayer" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCreateSubLayer.html"/>
+          <topic label="AL::usdmaya::cmds::LayerCurrentEditTarget" href="classAL_1_1usdmaya_1_1cmds_1_1LayerCurrentEditTarget.html"/>
+          <topic label="AL::usdmaya::cmds::LayerExport" href="classAL_1_1usdmaya_1_1cmds_1_1LayerExport.html"/>
+          <topic label="AL::usdmaya::cmds::LayerGetLayers" href="classAL_1_1usdmaya_1_1cmds_1_1LayerGetLayers.html"/>
+          <topic label="AL::usdmaya::cmds::LayerSave" href="classAL_1_1usdmaya_1_1cmds_1_1LayerSave.html"/>
+          <topic label="AL::usdmaya::cmds::LayerSetMuted" href="classAL_1_1usdmaya_1_1cmds_1_1LayerSetMuted.html"/>
+        </topic>
+        <topic label="AL::usdmaya::cmds::ProxyShapeCommandBase" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeCommandBase.html">
+          <topic label="AL::usdmaya::cmds::ActivatePrim" href="classAL_1_1usdmaya_1_1cmds_1_1ActivatePrim.html"/>
+          <topic label="AL::usdmaya::cmds::ChangeVariant" href="classAL_1_1usdmaya_1_1cmds_1_1ChangeVariant.html"/>
+          <topic label="AL::usdmaya::cmds::InternalProxyShapeSelect" href="classAL_1_1usdmaya_1_1cmds_1_1InternalProxyShapeSelect.html"/>
+          <topic label="AL::usdmaya::cmds::ProxyShapeFindLoadable" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeFindLoadable.html"/>
+          <topic label="AL::usdmaya::cmds::ProxyShapeImportAllTransforms" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImportAllTransforms.html"/>
+          <topic label="AL::usdmaya::cmds::ProxyShapeImportPrimPathAsMaya" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImportPrimPathAsMaya.html"/>
+          <topic label="AL::usdmaya::cmds::ProxyShapePostSelect" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePostSelect.html"/>
+          <topic label="AL::usdmaya::cmds::ProxyShapePrintRefCountState" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePrintRefCountState.html"/>
+          <topic label="AL::usdmaya::cmds::ProxyShapeRemoveAllTransforms" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeRemoveAllTransforms.html"/>
+          <topic label="AL::usdmaya::cmds::ProxyShapeResync" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeResync.html"/>
+          <topic label="AL::usdmaya::cmds::ProxyShapeSelect" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeSelect.html"/>
+        </topic>
+        <topic label="AL::usdmaya::cmds::ProxyShapeImport" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapeImport.html"/>
+        <topic label="AL::usdmaya::fileio::ExportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ExportCommand.html"/>
+        <topic label="AL::usdmaya::fileio::ImportCommand" href="classAL_1_1usdmaya_1_1fileio_1_1ImportCommand.html"/>
+      </topic>
+      <topic label="MPxData">
+        <topic label="AL::usdmaya::DrivenTransformsData" href="classAL_1_1usdmaya_1_1DrivenTransformsData.html"/>
+      </topic>
+      <topic label="MPxDrawOverride">
+        <topic label="AL::usdmaya::nodes::ProxyDrawOverride" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyDrawOverride.html"/>
+      </topic>
+      <topic label="MPxFileTranslator">
+        <topic label="AL::maya::FileTranslatorBase&lt; T &gt;" href="classAL_1_1maya_1_1FileTranslatorBase.html"/>
+      </topic>
+      <topic label="MPxGeometryData">
+        <topic label="AL::usdmaya::StageData" href="classAL_1_1usdmaya_1_1StageData.html"/>
+      </topic>
+      <topic label="MPxNode">
+        <topic label="AL::usdmaya::nodes::HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html"/>
+        <topic label="AL::usdmaya::nodes::Layer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html"/>
+      </topic>
+      <topic label="MPxSurfaceShape">
+        <topic label="AL::usdmaya::nodes::ProxyShape" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html"/>
+      </topic>
+      <topic label="MPxSurfaceShapeUI">
+        <topic label="AL::usdmaya::nodes::ProxyShapeUI" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShapeUI.html"/>
+      </topic>
+      <topic label="MPxTransform">
+        <topic label="AL::usdmaya::nodes::Transform" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html"/>
+      </topic>
+      <topic label="MPxTransformationMatrix">
+        <topic label="AL::usdmaya::nodes::TransformationMatrix" href="classAL_1_1usdmaya_1_1nodes_1_1TransformationMatrix.html"/>
+      </topic>
+      <topic label="AL::usdmaya::fileio::NodeFactory" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html"/>
+      <topic label="AL::maya::NodeHelper" href="classAL_1_1maya_1_1NodeHelper.html">
+        <topic label="AL::usdmaya::nodes::HostDrivenTransforms" href="classAL_1_1usdmaya_1_1nodes_1_1HostDrivenTransforms.html"/>
+        <topic label="AL::usdmaya::nodes::Layer" href="classAL_1_1usdmaya_1_1nodes_1_1Layer.html"/>
+        <topic label="AL::usdmaya::nodes::ProxyShape" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html"/>
+        <topic label="AL::usdmaya::nodes::Transform" href="classAL_1_1usdmaya_1_1nodes_1_1Transform.html"/>
+      </topic>
+      <topic label="AL::maya::FileTranslatorOptions::FrameLayout::Option" href="structAL_1_1maya_1_1FileTranslatorOptions_1_1FrameLayout_1_1Option.html"/>
+      <topic label="AL::maya::OptionsParser" href="classAL_1_1maya_1_1OptionsParser.html"/>
+      <topic label="AL::maya::Profiler" href="classAL_1_1maya_1_1Profiler.html"/>
+      <topic label="AL::maya::ProfilerSectionPath" href="classAL_1_1maya_1_1ProfilerSectionPath.html"/>
+      <topic label="AL::maya::ProfilerSectionTag" href="classAL_1_1maya_1_1ProfilerSectionTag.html"/>
+      <topic label="AL::usdmaya::cmds::ProxyShapePostLoadProcess" href="classAL_1_1usdmaya_1_1cmds_1_1ProxyShapePostLoadProcess.html"/>
+      <topic label="AL::usdmaya::nodes::SchemaNodeRef" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRef.html"/>
+      <topic label="AL::usdmaya::nodes::SchemaNodeRefDB" href="classAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB.html"/>
+      <topic label="AL::usdmaya::fileio::SchemaPrimsUtils" href="classAL_1_1usdmaya_1_1fileio_1_1SchemaPrimsUtils.html"/>
+      <topic label="AL::usdmaya::nodes::SelectionList" href="classAL_1_1usdmaya_1_1nodes_1_1SelectionList.html"/>
+      <topic label="AL::usdmaya::nodes::SelectionUndoHelper" href="structAL_1_1usdmaya_1_1nodes_1_1SelectionUndoHelper.html"/>
+      <topic label="AL::usdmaya::StageCache" href="classAL_1_1usdmaya_1_1StageCache.html"/>
+      <topic label="TfRefBase">
+        <topic label="AL::usdmaya::fileio::translators::TranslatorAbstract" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html">
+          <topic label="AL::usdmaya::fileio::translators::TranslatorBase" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorBase.html">
+            <topic label="AL::usdmaya::fileio::translators::TranslatorTestPlugin" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestPlugin.html"/>
+          </topic>
+        </topic>
+        <topic label="AL::usdmaya::fileio::translators::TranslatorContext" href="structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html"/>
+      </topic>
+      <topic label="TfWeakBase">
+        <topic label="AL::usdmaya::fileio::translators::TranslatorAbstract" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorAbstract.html"/>
+        <topic label="AL::usdmaya::nodes::ProxyShape" href="classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html"/>
+      </topic>
+      <topic label="AL::usdmaya::fileio::TransformIterator" href="classAL_1_1usdmaya_1_1fileio_1_1TransformIterator.html"/>
+      <topic label="AL::usdmaya::fileio::translators::TranslatorManufacture" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorManufacture.html"/>
+      <topic label="UsdTyped">
+        <topic label="AL::usdmaya::fileio::translators::TranslatorTestType" href="classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorTestType.html"/>
+      </topic>
+      <topic label="AL::usdmaya::nodes::SchemaNodeRefDB::value_compare" href="structAL_1_1usdmaya_1_1nodes_1_1SchemaNodeRefDB_1_1value__compare.html"/>
+    </topic>
+    <topic label="Class Members" href="functions.html">
+      <topic label="All" href="functions.html">
+        <topic label="a" href="functions.html"/>
+        <topic label="b" href="functions_b.html"/>
+        <topic label="c" href="functions_c.html"/>
+        <topic label="d" href="functions_d.html"/>
+        <topic label="e" href="functions_e.html"/>
+        <topic label="f" href="functions_f.html"/>
+        <topic label="g" href="functions_g.html"/>
+        <topic label="h" href="functions_h.html"/>
+        <topic label="i" href="functions_i.html"/>
+        <topic label="k" href="functions_k.html"/>
+        <topic label="l" href="functions_l.html"/>
+        <topic label="m" href="functions_m.html"/>
+        <topic label="n" href="functions_n.html"/>
+        <topic label="o" href="functions_o.html"/>
+        <topic label="p" href="functions_p.html"/>
+        <topic label="r" href="functions_r.html"/>
+        <topic label="s" href="functions_s.html"/>
+        <topic label="t" href="functions_t.html"/>
+        <topic label="u" href="functions_u.html"/>
+        <topic label="v" href="functions_v.html"/>
+        <topic label="w" href="functions_w.html"/>
+        <topic label="~" href="functions_~.html"/>
+      </topic>
+      <topic label="Functions" href="functions_func.html">
+        <topic label="a" href="functions_func.html"/>
+        <topic label="b" href="functions_func_b.html"/>
+        <topic label="c" href="functions_func_c.html"/>
+        <topic label="d" href="functions_func_d.html"/>
+        <topic label="e" href="functions_func_e.html"/>
+        <topic label="f" href="functions_func_f.html"/>
+        <topic label="g" href="functions_func_g.html"/>
+        <topic label="h" href="functions_func_h.html"/>
+        <topic label="i" href="functions_func_i.html"/>
+        <topic label="l" href="functions_func_l.html"/>
+        <topic label="m" href="functions_func_m.html"/>
+        <topic label="n" href="functions_func_n.html"/>
+        <topic label="o" href="functions_func_o.html"/>
+        <topic label="p" href="functions_func_p.html"/>
+        <topic label="r" href="functions_func_r.html"/>
+        <topic label="s" href="functions_func_s.html"/>
+        <topic label="t" href="functions_func_t.html"/>
+        <topic label="u" href="functions_func_u.html"/>
+        <topic label="v" href="functions_func_v.html"/>
+        <topic label="w" href="functions_func_w.html"/>
+        <topic label="~" href="functions_func_~.html"/>
+      </topic>
+      <topic label="Variables" href="functions_vars.html"/>
+      <topic label="Typedefs" href="functions_type.html"/>
+      <topic label="Enumerations" href="functions_enum.html"/>
+      <topic label="Enumerator" href="functions_eval.html"/>
+    </topic>
+  </topic>
+  <topic label="Files">
+    <topic label="File List" href="files.html">
+      <topic label="src" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">
+        <topic label="lib" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">
+          <topic label="AL_USDMaya" href="dir_1bb7ef9dbabe305f6710c4d5a2d124d7.html">
+            <topic label="AL" href="dir_1718e17ee0fed015a6dbff620e7e9f68.html">
+              <topic label="docpages" href="dir_0a9901c6d9b8d9e5fb6d9aded6910fa6.html">
+                <topic label="docs_codegroups.h" href="docs__codegroups_8h_source.html"/>
+                <topic label="docs_mainpage.h" href="docs__mainpage_8h_source.html"/>
+                <topic label="docs_mayahelpers.h" href="docs__mayahelpers_8h_source.html"/>
+                <topic label="docs_translator_plugins.h" href="docs__translator__plugins_8h_source.html"/>
+              </topic>
+              <topic label="maya" href="dir_92aaad08322167cef7c963291cf4c44c.html">
+                <topic label="ALHalf.h" href="ALHalf_8h.html">
+                  <topic label="double2half_1f" href="ALHalf_8h.html#a82b1f2acb56e41ca014e2ab73a0fff20"/>
+                  <topic label="double2half_4f" href="ALHalf_8h.html#a4aa1f9171ca46f6748b378b08a1ee43b"/>
+                  <topic label="double2half_8f" href="ALHalf_8h.html#abd368c90bf835f07fdbd42ad07ba9f06"/>
+                  <topic label="float2half_1f" href="ALHalf_8h.html#a63b7a9e4f89b0a6a78e695a40c59c486"/>
+                  <topic label="float2half_4f" href="ALHalf_8h.html#a6bcaedf6b602279b96a36f23f1fba9dc"/>
+                  <topic label="float2half_8f" href="ALHalf_8h.html#a38f91e48b6e4841cfeab7b55c239ad13"/>
+                  <topic label="half2double_4f" href="ALHalf_8h.html#a9e9482d8cc435435ef6bcf88f3cca882"/>
+                  <topic label="half2double_8f" href="ALHalf_8h.html#a0d412177f0f8c247c319b0a21f0bc1bd"/>
+                  <topic label="half2fdouble_1f" href="ALHalf_8h.html#a2ce05d88209b8b6b400ea726df2c0edd"/>
+                  <topic label="half2float_1f" href="ALHalf_8h.html#ad1fabbd7cba0cf8b9e772dbc53980f7c"/>
+                  <topic label="half2float_4f" href="ALHalf_8h.html#a3804ce1153688e8bf70e02de75e2e019"/>
+                  <topic label="half2float_8f" href="ALHalf_8h.html#a2a171872e1809753a71289fbdbcd20c4"/>
+                </topic>
+                <topic label="CodeTimings.h" href="CodeTimings_8h_source.html"/>
+                <topic label="CommandGuiHelper.h" href="CommandGuiHelper_8h_source.html"/>
+                <topic label="Common.h" href="maya_2Common_8h_source.html"/>
+                <topic label="DgNodeHelper.h" href="DgNodeHelper_8h_source.html"/>
+                <topic label="FileTranslatorBase.h" href="FileTranslatorBase_8h.html">
+                  <topic label="FileTranslatorBase" href="classAL_1_1maya_1_1FileTranslatorBase.html">
+                    <topic label="reader" href="classAL_1_1maya_1_1FileTranslatorBase.html#aa9559fb9c467242bcf316a0aed4f5031"/>
+                    <topic label="writer" href="classAL_1_1maya_1_1FileTranslatorBase.html#ac585d22e2da9d216cc543169dd041a17"/>
+                  </topic>
+                  <topic label="AL_MAYA_TRANSLATOR_BEGIN" href="FileTranslatorBase_8h.html#a28b8758db0704688b3a5b03080bedc9a"/>
+                  <topic label="AL_MAYA_TRANSLATOR_END" href="FileTranslatorBase_8h.html#af2d34ab7084d3c8357efff3d7436cb87"/>
+                </topic>
+                <topic label="FileTranslatorOptions.h" href="FileTranslatorOptions_8h_source.html"/>
+                <topic label="MenuBuilder.h" href="MenuBuilder_8h_source.html"/>
+                <topic label="NodeHelper.h" href="NodeHelper_8h_source.html"/>
+                <topic label="SIMD.h" href="SIMD_8h_source.html"/>
+              </topic>
+              <topic label="usdmaya" href="dir_bfd18ef9f7ca57c4b661440a6abf5ddf.html">
+                <topic label="cmds" href="dir_8d68ccc44ba8d1d9e852f698ef625f27.html">
+                  <topic label="LayerCommands.h" href="LayerCommands_8h_source.html"/>
+                  <topic label="ProxyShapeCommands.h" href="ProxyShapeCommands_8h_source.html"/>
+                  <topic label="ProxyShapePostLoadProcess.h" href="ProxyShapePostLoadProcess_8h_source.html"/>
+                  <topic label="UnloadPrim.h" href="UnloadPrim_8h_source.html"/>
+                </topic>
+                <topic label="fileio" href="dir_ec9d30a9ccd844418f16eca8313b1ffe.html">
+                  <topic label="translators" href="dir_8dc7a1cb0895ed89bc46a30a8e72ea1a.html">
+                    <topic label="CameraTranslator.h" href="CameraTranslator_8h_source.html"/>
+                    <topic label="DagNodeTranslator.h" href="DagNodeTranslator_8h_source.html"/>
+                    <topic label="DgNodeTranslator.h" href="DgNodeTranslator_8h_source.html"/>
+                    <topic label="MeshTranslator.h" href="MeshTranslator_8h_source.html"/>
+                    <topic label="NurbsCurveTranslator.h" href="NurbsCurveTranslator_8h_source.html"/>
+                    <topic label="TransformTranslator.h" href="TransformTranslator_8h_source.html"/>
+                    <topic label="TranslatorBase.h" href="TranslatorBase_8h_source.html"/>
+                    <topic label="TranslatorContext.h" href="TranslatorContext_8h_source.html"/>
+                    <topic label="TranslatorTestPlugin.h" href="TranslatorTestPlugin_8h_source.html"/>
+                    <topic label="TranslatorTestType.h" href="TranslatorTestType_8h_source.html"/>
+                  </topic>
+                  <topic label="AnimationTranslator.h" href="AnimationTranslator_8h_source.html"/>
+                  <topic label="Export.h" href="Export_8h_source.html"/>
+                  <topic label="ExportParams.h" href="ExportParams_8h_source.html"/>
+                  <topic label="ExportTranslator.h" href="ExportTranslator_8h_source.html"/>
+                  <topic label="Import.h" href="Import_8h_source.html"/>
+                  <topic label="ImportParams.h" href="ImportParams_8h_source.html"/>
+                  <topic label="ImportTranslator.h" href="ImportTranslator_8h_source.html"/>
+                  <topic label="NodeFactory.h" href="NodeFactory_8h_source.html"/>
+                  <topic label="SchemaPrims.h" href="SchemaPrims_8h_source.html"/>
+                  <topic label="TransformIterator.h" href="TransformIterator_8h_source.html"/>
+                </topic>
+                <topic label="nodes" href="dir_9dd641a22c82f6eefc5199b9632b4dbe.html">
+                  <topic label="HostDrivenTransforms.h" href="HostDrivenTransforms_8h_source.html"/>
+                  <topic label="Layer.h" href="Layer_8h_source.html"/>
+                  <topic label="LayerVisitor.h" href="LayerVisitor_8h_source.html"/>
+                  <topic label="ProxyDrawOverride.h" href="ProxyDrawOverride_8h_source.html"/>
+                  <topic label="ProxyShape.h" href="ProxyShape_8h_source.html"/>
+                  <topic label="ProxyShapeUI.h" href="ProxyShapeUI_8h_source.html"/>
+                  <topic label="Transform.h" href="Transform_8h_source.html"/>
+                  <topic label="TransformationMatrix.h" href="TransformationMatrix_8h_source.html"/>
+                  <topic label="USDToMayaMappingDB.h" href="USDToMayaMappingDB_8h_source.html"/>
+                </topic>
+                <topic label="AttributeType.h" href="AttributeType_8h_source.html"/>
+                <topic label="Common.h" href="usdmaya_2Common_8h_source.html"/>
+                <topic label="DebugCodes.h" href="DebugCodes_8h_source.html"/>
+                <topic label="DrivenTransformsData.h" href="DrivenTransformsData_8h_source.html"/>
+                <topic label="Global.h" href="Global_8h_source.html"/>
+                <topic label="Metadata.h" href="Metadata_8h_source.html"/>
+                <topic label="PluginRegister.h" href="PluginRegister_8h_source.html"/>
+                <topic label="StageCache.h" href="StageCache_8h_source.html"/>
+                <topic label="StageData.h" href="StageData_8h_source.html"/>
+                <topic label="TransformOperation.h" href="TransformOperation_8h_source.html"/>
+                <topic label="TypeIDs.h" href="TypeIDs_8h_source.html"/>
+                <topic label="Utils.h" href="Utils_8h_source.html"/>
+              </topic>
+            </topic>
+          </topic>
+        </topic>
+      </topic>
+    </topic>
+    <topic label="File Members" href="globals.html">
+      <topic label="All" href="globals.html"/>
+      <topic label="Macros" href="globals_defs.html"/>
+    </topic>
+  </topic>
+</toc>
